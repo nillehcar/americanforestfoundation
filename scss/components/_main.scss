@@ -1,0 +1,167 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  display: none;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center
+}
+
+/* nav */
+
+.pushmenu { 
+  background: $background;
+  font-family: $lato;
+  width: 240px;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
+  position:fixed;
+  padding-top: 2em;
+}
+
+.pushmenu ul{
+  @include zero;
+}
+
+.pushmenu li {
+  list-style-type: none;
+}
+
+.pushmenu a {
+  display: block; /* drops the nav vertically*/
+  color: $brown;
+  text-decoration: none;
+  padding: 1em;
+  letter-spacing: 2px;
+    &:hover {
+      color: $text-color;
+    }
+}
+
+.pushmenu-left {
+  left: -240px;
+
+}
+
+.pushmenu-left.pushmenu-open {
+  left: 0;
+}
+
+.pushmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.pushmenu-push-toright {
+  left: 240px;
+}
+
+/* sub-nav */
+
+.sub-nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+nav section:hover > .sub-nav{
+    max-height: 100px;
+}
+
+.sub-nav a {
+  color: $brown;
+  font-size: 12px;
+  padding-left: 2em;
+  &:hover {
+    color: $text-color;
+  }
+}
+
+/*Transition*/
+
+.pushmenu, .pushmenu-push {
+  @include ease(all, 0.3s, ease);
+}
+
+#nav_list {
+  background: url("../images/menu.svg") no-repeat left top;
+  cursor: pointer;
+  height: 65px;
+  width: 70px;
+  text-indent: -99999em;
+}
+
+nav-list.active {
+  background-position: -33px top;
+}
+ 
+ section.content {
+   font-family: $montserrat;
+   padding: 10px 20px;
+ }
+
+
+/* content */
+.logo {
+  width: 15em;
+}
+
+
+@media only screen and (min-width: 40em) {
+.logo {
+  width: 20em;
+}
+}
+.img-bg {
+  width: 100%;
+  padding-bottom: 15em;
+}
+
+.home {
+  background: transparent url("../images/bg.JPG") no-repeat center top;
+  background-size: cover;
+}
+
+.tagline {
+  color: $light-grey;
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-family: $lato;
+  font-weight: 300;
+}
+
+/* footer */
+
+footer {
+  background-color: $dark;
+  padding: 5em;
+}

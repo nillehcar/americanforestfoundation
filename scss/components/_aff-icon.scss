@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'aff';
+  src: url('../font/aff.eot?49659532');
+  src: url('../font/aff.eot?49659532#iefix') format('embedded-opentype'),
+       url('../font/aff.woff?49659532') format('woff'),
+       url('../font/aff.ttf?49659532') format('truetype'),
+       url('../font/aff.svg?49659532#aff') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'aff';
+    src: url('../font/aff.svg?49659532#aff') format('svg');
+  }
+}
+*/
+
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  position: relative;
+  top: 2px;
+  font-family: "aff";
+  font-style: normal;
+  font-weight: normal; 
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  margin-right: .4em;
+  margin-left: .2em;
+ 
+  font-size: 190%;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-advocacy:before { content: '\e801'; } /* '' */
+.icon-resources:before { content: '\e800'; } /* '' */ 
+.icon-about:before { content: '\e802'; } /* '' */
+.icon-contact:before { content: '\e805'; } /* '' */
+.icon-login:before { content: '\e804'; } /* '' */
+.icon-home:before { content: '\e806'; } /* '' */
+.icon-donate:before { content: '\e803'; } /* '' */
