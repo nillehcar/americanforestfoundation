@@ -1,0 +1,5 @@
+.DS_Store 
+prepros.cfg
+_site/
+# Thumbnails
+._*
