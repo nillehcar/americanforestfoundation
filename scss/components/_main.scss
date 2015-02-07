@@ -36,8 +36,9 @@ h1 {
 /* nav */
 
 .pushmenu { 
-  background: $background;
+  background: $light-grey;
   font-family: $open;
+  font-weight: 400;
   width: 240px;
   height: 100%;
   top: 0;
@@ -56,12 +57,13 @@ h1 {
 
 .pushmenu a {
   display: block; /* drops the nav vertically*/
-  color: $brown;
+  color: $blue;
   text-decoration: none;
   padding: 1em;
+  font-size: .9rem;
   letter-spacing: 2px;
     &:hover {
-      color: $text-color;
+      color: $red;
     }
 }
 
@@ -90,6 +92,7 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s;
+    font-weight: 300;
 }
 
 nav section:hover > .sub-nav{
@@ -97,11 +100,11 @@ nav section:hover > .sub-nav{
 }
 
 .sub-nav a {
-  color: $brown;
+  color: $blue;
   font-size: 12px;
   padding-left: 2em;
   &:hover {
-    color: $text-color;
+    color: $red;
   }
 }
 
@@ -161,10 +164,10 @@ footer{
   padding-bottom: 3rem;
 
 .logo-footer{
-  margin-left: 31%;
+  margin-left: 27%;
   margin-right: 20%;
   margin-bottom: -5px;
-  width: 10rem;
+  width: 12rem;
 }
 
 .donate{
@@ -179,8 +182,7 @@ footer{
 
 .bottom-nav{
   text-transform: uppercase;
-
-  font-family: $montserrat;
+  font-family: $open;
   font-size: .7rem;
   color: $light-grey;
 }
@@ -262,8 +264,94 @@ ul a{
   }/* social end*/
 }
 
+@media only screen and (min-width: 35em) {
+
+/* FOOTER */
+.logo-wrap{
+  float: left;
+  margin-left: -2rem;
+  padding-top: 1.5rem;
+}
+
+.donate{
+  padding-left: 20%;
+}
+
+footer{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.social-wrap{
+  margin-left: 22%;
+}
+
+.links-wrap{
+  margin-left: 38%;
+}
+
+}
+
+
 @media only screen and (min-width: 40em) {
+
 .logo {
   width: 20em;
 }
+
+.links-wrap{
+  margin-left: 43%;
+}
+
+}
+
+@media only screen and (min-width: 50em) {
+
+.links-wrap{
+  margin-left: 55%;
+}
+
+.donate{
+  padding-left: 22%;
+}
+
+.bottom-nav{
+  margin-left: 1rem;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.links-wrap{
+  margin-left: 64%;
+}
+
+}
+
+
+@media only screen and (min-width: 70em) {
+
+
+.links-wrap{
+  margin-left: 68%;
+}
+
+}
+
+@media only screen and (min-width: 80em) {
+
+/*FOOTER*/
+.links-wrap{
+  margin-left: 72%;
+}
+
+.donate{
+  padding-left: 21%;
+}
+
+.bottom-nav{
+  margin-left: .5rem;
+}
+
 }
