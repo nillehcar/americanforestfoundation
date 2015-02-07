@@ -30,14 +30,15 @@ h1 {
 }
 
 .center {
-  text-align: center
+  text-align: center;
 }
 
 /* nav */
 
 .pushmenu { 
-  background: $background;
-  font-family: $lato;
+  background: $light-grey;
+  font-family: $open;
+  font-weight: 400;
   width: 240px;
   height: 100%;
   top: 0;
@@ -56,12 +57,13 @@ h1 {
 
 .pushmenu a {
   display: block; /* drops the nav vertically*/
-  color: $brown;
+  color: $blue;
   text-decoration: none;
   padding: 1em;
+  font-size: .9rem;
   letter-spacing: 2px;
     &:hover {
-      color: $text-color;
+      color: $red;
     }
 }
 
@@ -90,6 +92,7 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s;
+    font-weight: 300;
 }
 
 nav section:hover > .sub-nav{
@@ -97,11 +100,11 @@ nav section:hover > .sub-nav{
 }
 
 .sub-nav a {
-  color: $brown;
+  color: $blue;
   font-size: 12px;
   padding-left: 2em;
   &:hover {
-    color: $text-color;
+    color: $red;
   }
 }
 
@@ -134,19 +137,13 @@ nav-list.active {
   width: 15em;
 }
 
-
-@media only screen and (min-width: 40em) {
-.logo {
-  width: 20em;
-}
-}
 .img-bg {
   width: 100%;
   padding-bottom: 15em;
 }
 
 .home {
-  background: transparent url("../images/bg.JPG") no-repeat center top;
+  background: transparent url("../images/BG.JPG") no-repeat center top;
   background-size: cover;
 }
 
@@ -155,13 +152,206 @@ nav-list.active {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
-  font-family: $lato;
+  font-family: $open;
   font-weight: 300;
 }
 
 /* footer */
 
-footer {
-  background-color: $dark;
-  padding: 5em;
+footer{
+  background-color: $blue;
+  padding-top: 3em;
+  padding-bottom: 3rem;
+
+.logo-footer{
+  margin-left: 27%;
+  margin-right: 20%;
+  margin-bottom: -5px;
+  width: 12rem;
+}
+
+.donate{
+  margin-left: 33%;
+}
+
+.donate-btn{
+  @include button($btn-bg, $btn-hov, $blue);
+}
+
+/* footer navigation */
+
+.bottom-nav{
+  text-transform: uppercase;
+  font-family: $open;
+  font-size: .7rem;
+  color: $light-grey;
+}
+
+ul{
+  padding: 0;
+}
+
+ul a{
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: $light-grey;
+  padding-left: 3px;
+  padding-right: 3px;
+  &:hover{
+    color: $red;
+  }
+}
+
+/* footer social */
+
+.social-wrap{
+    overflow: hidden;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.social-name{
+   @include hide-text;
+}
+
+.social{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: .5rem;
+    position: relative;
+    float: left;
+    left: 52%;
+
+    li{
+      position: relative;
+      float: left;
+      right: 50%;
+      a{
+        display: inline;
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin-right: 1rem;
+        text-align: center;
+        padding-top: 12px;
+        padding-right: 1px;
+    
+        -webkit-border-radius:20px;
+        -moz-border-radius:20px;
+        -o-border-radius:20px;
+        -ms-border-radius:20px;
+        border-radius:20px;
+    
+        -webkit-box-shadow: inset 0 0 0 40px $light-grey;
+        -moz-box-shadow: inset 0 0 0 40px $light-grey;
+        -o-box-shadow: inset 0 0 0 40px $light-grey;
+        -ms-box-shadow: inset 0 0 0 40px $light-grey;
+        box-shadow: inset 0 0 0 40px $light-grey;
+        color: $blue;
+
+        &:hover{
+        -webkit-box-shadow: inset 0 0 0 2px $light-grey;
+        -moz-box-shadow: inset 0 0 0 2px $light-grey;
+        -o-box-shadow: inset 0 0 0 2px $light-grey;
+        -ms-box-shadow: inset 0 0 0 2px $light-grey;
+        box-shadow: inset 0 0 0 2px $light-grey;
+        color: $light-grey;
+        @include ease(all, 0.3s, ease);
+        }/* hover end*/
+      }/* a end */
+    }/* li end */
+  }/* social end*/
+}
+
+@media only screen and (min-width: 35em) {
+
+/* FOOTER */
+.logo-wrap{
+  float: left;
+  margin-left: -2rem;
+  padding-top: 1.5rem;
+}
+
+.donate{
+  padding-left: 20%;
+}
+
+footer{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.social-wrap{
+  margin-left: 22%;
+}
+
+.links-wrap{
+  margin-left: 38%;
+}
+
+}
+
+
+@media only screen and (min-width: 40em) {
+
+.logo {
+  width: 20em;
+}
+
+.links-wrap{
+  margin-left: 43%;
+}
+
+}
+
+@media only screen and (min-width: 50em) {
+
+.links-wrap{
+  margin-left: 55%;
+}
+
+.donate{
+  padding-left: 22%;
+}
+
+.bottom-nav{
+  margin-left: 1rem;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.links-wrap{
+  margin-left: 64%;
+}
+
+}
+
+
+@media only screen and (min-width: 70em) {
+
+
+.links-wrap{
+  margin-left: 68%;
+}
+
+}
+
+@media only screen and (min-width: 80em) {
+
+/*FOOTER*/
+.links-wrap{
+  margin-left: 72%;
+}
+
+.donate{
+  padding-left: 21%;
+}
+
+.bottom-nav{
+  margin-left: .5rem;
+}
+
 }

@@ -130,28 +130,16 @@ h1 {
   position: fixed;
   padding-top: 2em; }
 
-<<<<<<< HEAD
-/* line 49, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 50, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 .pushmenu ul {
   margin: 0;
   padding: 0; }
 
-<<<<<<< HEAD
-/* line 53, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-.pushmenu li {
-  list-style-type: none; }
-
-/* line 57, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 54, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 .pushmenu li {
   list-style-type: none; }
 
 /* line 58, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 .pushmenu a {
   display: block;
   /* drops the nav vertically*/
@@ -160,25 +148,10 @@ h1 {
   padding: 1em;
   font-size: 0.9rem;
   letter-spacing: 2px; }
-<<<<<<< HEAD
-  /* line 63, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
   /* line 65, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
   .pushmenu a:hover {
     color: #BA3D36; }
 
-<<<<<<< HEAD
-/* line 68, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-.pushmenu-left {
-  left: -240px; }
-
-/* line 73, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-.pushmenu-left.pushmenu-open {
-  left: 0; }
-
-/* line 77, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 70, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 .pushmenu-left {
   left: -240px; }
@@ -188,71 +161,42 @@ h1 {
   left: 0; }
 
 /* line 79, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 .pushmenu-push {
   overflow-x: hidden;
   position: relative;
   left: 0; }
 
-<<<<<<< HEAD
-/* line 83, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 85, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 .pushmenu-push-toright {
   left: 240px; }
 
 /* sub-nav */
-<<<<<<< HEAD
-/* line 89, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 91, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 .sub-nav {
   max-height: 0;
   overflow: hidden;
   transition: max-height 1s;
   font-weight: 300; }
 
-<<<<<<< HEAD
-/* line 95, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-nav section:hover > .sub-nav {
-  max-height: 100px; }
-
-/* line 99, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 98, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 nav section:hover > .sub-nav {
   max-height: 100px; }
 
 /* line 102, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 .sub-nav a {
   color: #1F2B33;
   font-size: 12px;
   padding-left: 2em; }
-<<<<<<< HEAD
-  /* line 103, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
   /* line 106, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
   .sub-nav a:hover {
     color: #BA3D36; }
 
 /*Transition*/
-<<<<<<< HEAD
-/* line 110, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-.pushmenu, .pushmenu-push {
-  transition: all 0.3s ease; }
-
-/* line 114, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 113, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 .pushmenu, .pushmenu-push {
   transition: all 0.3s ease; }
 
 /* line 117, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 #nav_list {
   background: url("../images/menu.svg") no-repeat left top;
   cursor: pointer;
@@ -260,61 +204,31 @@ nav section:hover > .sub-nav {
   width: 70px;
   text-indent: -99999em; }
 
-<<<<<<< HEAD
-/* line 122, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-nav-list.active {
-  background-position: -33px top; }
-
-/* line 126, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 125, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 nav-list.active {
   background-position: -33px top; }
 
 /* line 129, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 section.content {
   font-family: 'Montserrat', sans-serif;
   padding: 10px 20px; }
 
 /* content */
-<<<<<<< HEAD
-/* line 133, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-.logo {
-  width: 15em; }
-
-@media only screen and (min-width: 40em) {
-  /* line 139, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-  .logo {
-    width: 20em; }
- }
-
-/* line 143, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 136, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 .logo {
   width: 15em; }
 
 /* line 140, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 .img-bg {
   width: 100%;
   padding-bottom: 15em; }
 
-<<<<<<< HEAD
-/* line 148, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 145, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 .home {
   background: transparent url("../images/BG.JPG") no-repeat center top;
   background-size: cover; }
 
-<<<<<<< HEAD
-/* line 153, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 150, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 .tagline {
   color: #EFEFEF;
   text-align: center;
@@ -324,11 +238,7 @@ section.content {
   font-weight: 300; }
 
 /* footer */
-<<<<<<< HEAD
-/* line 164, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
-=======
 /* line 161, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
->>>>>>> footer
 footer {
   background-color: #1F2B33;
   padding-top: 3em;
