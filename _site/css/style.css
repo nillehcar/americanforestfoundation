@@ -221,11 +221,11 @@ section.content {
 /* line 140, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .img-bg {
   width: 100%;
-  padding-bottom: 15em; }
+  padding-bottom: 12em; }
 
 /* line 145, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .home {
-  background: transparent url("../images/BG.JPG") no-repeat center top;
+  background: transparent url("../images/close-forest.jpg") no-repeat top;
   background-size: cover; }
 
 /* line 150, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
