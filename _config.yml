@@ -1,4 +1,4 @@
 markdown: redcarpet
 baseurl: /americanforestfoundation
 permalink: pretty
-exclude: ['READEME.md','scss','prepros.cfg']
+exclude: ['README.md','scss','prepros.cfg']
