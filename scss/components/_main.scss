@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 
-h1 {
+.h1-home {
   display: none;
 }
 
@@ -185,13 +185,11 @@ footer{
   font-family: $open;
   font-size: .7rem;
   color: $light-grey;
-}
-
-ul{
   padding: 0;
 }
 
-ul a{
+
+.bottom-nav a{
   text-decoration: none;
   letter-spacing: 2px;
   color: $light-grey;
