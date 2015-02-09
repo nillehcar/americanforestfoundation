@@ -183,7 +183,7 @@ footer{
 .bottom-nav{
   text-transform: uppercase;
   font-family: $open;
-  font-size: .7rem;
+  font-size: .6rem;
   color: $light-grey;
   padding: 0;
 }
@@ -268,11 +268,11 @@ footer{
 .logo-wrap{
   float: left;
   margin-left: -2rem;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .donate{
-  padding-left: 20%;
+  padding-left: 26%;
 }
 
 footer{
@@ -281,11 +281,11 @@ footer{
 }
 
 .social-wrap{
-  margin-left: 22%;
+  margin-left: 34%;
 }
 
 .links-wrap{
-  margin-left: 38%;
+  margin-left: 35%;
 }
 
 }
@@ -306,15 +306,11 @@ footer{
 @media only screen and (min-width: 50em) {
 
 .links-wrap{
-  margin-left: 55%;
+  margin-left: 48%;
 }
 
-.donate{
-  padding-left: 22%;
-}
-
-.bottom-nav{
-  margin-left: 1rem;
+.social-wrap{
+  margin-left: 31%;
 }
 
 }
@@ -322,7 +318,7 @@ footer{
 @media only screen and (min-width: 60em) {
 
 .links-wrap{
-  margin-left: 64%;
+  margin-left: 57%;
 }
 
 }
@@ -332,7 +328,7 @@ footer{
 
 
 .links-wrap{
-  margin-left: 68%;
+  margin-left: 63%;
 }
 
 }
@@ -341,15 +337,19 @@ footer{
 
 /*FOOTER*/
 .links-wrap{
-  margin-left: 72%;
+  margin-left: 70%;
 }
 
 .donate{
-  padding-left: 21%;
+  padding-left: 23%;
 }
 
 .bottom-nav{
-  margin-left: .5rem;
+  margin-right: 1rem;
+}
+
+.social-wrap{
+  margin-left: 26%;
 }
 
 }
