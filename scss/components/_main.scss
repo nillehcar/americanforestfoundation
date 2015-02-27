@@ -143,7 +143,7 @@ nav-list.active {
 }
 
 .home {
-  background: transparent url("../images/close-forest.jpg") no-repeat top;
+  background: transparent url("../images/fog-forest-5.jpg") no-repeat top;
   background-size: cover;
 }
 
@@ -154,6 +154,48 @@ nav-list.active {
   letter-spacing: 2px;
   font-family: $open;
   font-weight: 300;
+}
+
+/* Home Sections */
+
+.af-info{
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.home-intro{
+  padding: 7rem;
+}
+
+.intro-header{
+  color: $blue;
+  font-family: $montserrat;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.intro-para{
+  color: $blue;
+  font-size: .9rem;
+  font-family: $open;
+  letter-spacing: 1px;
+}
+
+.grid-header{
+  color: $blue;
+  text-transform: uppercase;
+  font-family: $montserrat;
+  letter-spacing: 5px;
+}
+
+.grid-para{
+  color: $blue;
+  font-family: $open;
+  line-height: 1.7rem;
+}
+
+.grid-btn{
+  @include button2($btn-bg, $btn-hov, $blue);
 }
 
 /* footer */
@@ -340,6 +382,11 @@ footer{
   margin-left: 70%;
 }
 
+.logo{
+  width: 25rem;
+  padding-top: 7rem;
+}
+
 .donate{
   padding-left: 23%;
 }
@@ -352,4 +399,26 @@ footer{
   margin-left: 26%;
 }
 
+/* Home */
+
+.intro-para{
+  margin-left: 18rem;
+  margin-right: 18rem;
+  line-height: 2rem;
+}
+
+.intro-header{
+  font-size: 1.8rem;
+}
+
+.grid-header{
+  padding-top: 3rem;
+  font-size: 1.8rem;
+}
+
+.grid-para{
+  font-size: .9rem;
+  padding-left: 9%;
+  padding-right: 9%;
+}
 }
