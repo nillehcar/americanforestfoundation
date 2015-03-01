@@ -1,6 +1,7 @@
 .grid {
 	overflow: hidden;
 	background-color: #EFEFEF;
+	border: 1px solid red;
 }
 
 .unit {
@@ -20,16 +21,11 @@
 	padding-bottom: 2rem;
 }
 
-/*
-	Instead of including this class in your grids.css
-	Use the one included in your modular typography.css
-*/
-
 .unit-s-1 {
 	width: 100%;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 35em) {
 
 	.unit-m-1-2 {
 		width: 50%;
@@ -37,7 +33,7 @@
 
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 65em) {
 
 	.unit-l-1-3 {
 		width: 33.3333%;

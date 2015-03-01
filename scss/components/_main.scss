@@ -134,7 +134,9 @@ nav-list.active {
 
 /* content */
 .logo {
-  width: 15em;
+  width: 17em;
+  padding-top: 5rem;
+  margin-bottom: -5rem;
 }
 
 .img-bg {
@@ -164,34 +166,56 @@ nav-list.active {
 }
 
 .home-intro{
-  padding: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .intro-header{
   color: $blue;
   font-family: $montserrat;
   letter-spacing: 5px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   text-transform: uppercase;
 }
 
 .intro-para{
   color: $blue;
-  font-size: .9rem;
+  font-size: .8rem;
+  line-height: 1.5rem;
   font-family: $open;
   letter-spacing: 1px;
 }
 
 .grid-header{
+  padding-top: 3rem;
   color: $blue;
+  font-size: 1.3rem;
   text-transform: uppercase;
   font-family: $montserrat;
   letter-spacing: 5px;
 }
 
 .grid-para{
+  padding-left: 1rem;
   color: $blue;
+  font-size: .8rem;
   font-family: $open;
   line-height: 1.7rem;
+}
+
+.learn{
+  padding-bottom: 3rem;
+}
+
+.support{
+  padding-bottom: 3rem;
+}
+
+.news{
+  padding-bottom: 3rem;
 }
 
 .grid-btn{
@@ -330,6 +354,14 @@ footer{
   margin-left: 35%;
 }
 
+.learn{
+  padding-bottom: 0rem;
+}
+
+.grid-header{
+  padding-top: 2rem;
+}
+
 }
 
 
@@ -355,12 +387,19 @@ footer{
   margin-left: 31%;
 }
 
+.grid-header{
+  padding-top: 4rem;
+}
 }
 
 @media only screen and (min-width: 60em) {
 
 .links-wrap{
   margin-left: 57%;
+}
+
+.grid-header{
+  padding-top: 1.5rem;
 }
 
 }
@@ -374,6 +413,7 @@ footer{
 }
 
 }
+
 
 @media only screen and (min-width: 80em) {
 
@@ -420,5 +460,23 @@ footer{
   font-size: .9rem;
   padding-left: 9%;
   padding-right: 9%;
+}
+
+}
+
+@media only screen and (min-width: 85em) {
+
+.logo{
+  padding-top: 6rem; 
+  margin-bottom: .5rem;
+}
+
+.grid-header{
+  padding-top: 5rem;
+}
+
+.home-intro{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 }
