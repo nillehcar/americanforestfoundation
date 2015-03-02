@@ -229,6 +229,11 @@ section.content {
   background-size: cover; }
 
 /* line 150, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+.img-bg-advocacy {
+  background: transparent url("../images/hike-forest-3.jpg") no-repeat top;
+  background-size: cover; }
+
+/* line 155, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
 .tagline {
   color: #EFEFEF;
   text-align: center;
@@ -238,7 +243,7 @@ section.content {
   font-weight: 300; }
 
 /* footer */
-/* line 161, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+/* line 166, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
 footer {
   background-color: #1F2B33;
   padding-top: 3em;
@@ -246,16 +251,16 @@ footer {
   /* footer navigation */
   /* footer social */
   /* social end*/ }
-  /* line 166, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 171, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   footer .logo-footer {
     margin-left: 27%;
     margin-right: 20%;
     margin-bottom: -5px;
     width: 12rem; }
-  /* line 173, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 178, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   footer .donate {
     margin-left: 33%; }
-  /* line 177, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 182, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   footer .donate-btn {
     background-color: #EFEFEF;
     color: #1F2B33;
@@ -275,35 +280,35 @@ footer {
       background-color: #1F2B33;
       color: #EFEFEF;
       border: 2px solid #EFEFEF; }
-  /* line 183, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 188, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   footer .bottom-nav {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.6rem;
     color: #EFEFEF;
     padding: 0; }
-  /* line 192, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 197, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   footer .bottom-nav a {
     text-decoration: none;
     letter-spacing: 2px;
     color: #EFEFEF;
     padding-left: 3px;
     padding-right: 3px; }
-    /* line 198, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+    /* line 203, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
     footer .bottom-nav a:hover {
       color: #BA3D36; }
-  /* line 205, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 210, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   footer .social-wrap {
     overflow: hidden;
     padding-top: 1rem;
     padding-bottom: 0.5rem; }
-  /* line 211, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 216, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   footer .social-name {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
-  /* line 215, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 220, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   footer .social {
     list-style-type: none;
     margin: 0 auto;
@@ -313,13 +318,13 @@ footer {
     float: left;
     left: 52%
     /* li end */ }
-    /* line 224, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+    /* line 229, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
     footer .social li {
       position: relative;
       float: left;
       right: 50%
       /* a end */ }
-      /* line 228, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+      /* line 233, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
       footer .social li a {
         display: inline;
         float: left;
@@ -336,7 +341,7 @@ footer {
         box-shadow: inset 0 0 0 40px #EFEFEF;
         color: #1F2B33
         /* hover end*/ }
-        /* line 251, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+        /* line 256, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
         footer .social li a:hover {
           -o-box-shadow: inset 0 0 0 2px #EFEFEF;
           -ms-box-shadow: inset 0 0 0 2px #EFEFEF;
@@ -346,77 +351,77 @@ footer {
 
 @media only screen and (min-width: 35em) {
   /* FOOTER */
-  /* line 268, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 273, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .logo-wrap {
     float: left;
     margin-left: -2rem;
     padding-top: 1rem; }
 
-  /* line 274, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 279, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .donate {
     padding-left: 26%; }
 
-  /* line 278, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 283, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   footer {
     padding-top: 2rem;
     padding-bottom: 2rem; }
 
-  /* line 283, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 288, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 34%; }
 
-  /* line 287, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 292, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 35%; }
  }
 
 @media only screen and (min-width: 40em) {
-  /* line 296, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 301, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .logo {
     width: 20em; }
 
-  /* line 300, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 305, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 43%; }
  }
 
 @media only screen and (min-width: 50em) {
-  /* line 308, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 313, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 48%; }
 
-  /* line 312, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 317, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 31%; }
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 320, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 325, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 57%; }
  }
 
 @media only screen and (min-width: 70em) {
-  /* line 330, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 335, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 63%; }
  }
 
 @media only screen and (min-width: 80em) {
   /*FOOTER*/
-  /* line 339, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 344, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 70%; }
 
-  /* line 343, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 348, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .donate {
     padding-left: 23%; }
 
-  /* line 347, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 352, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .bottom-nav {
     margin-right: 1rem; }
 
-  /* line 351, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
+  /* line 356, /Users/Sarah/Desktop/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 26%; }
  }
