@@ -1,5 +1,5 @@
 .DS_Store 
 prepros.cfg
-_site/
+_site
 # Thumbnails
 ._*

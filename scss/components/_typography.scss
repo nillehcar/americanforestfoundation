@@ -1,5 +1,5 @@
 html {
-  font-size: 1em;
+	font-size: 1em;
 }
 
 body {
@@ -10,28 +10,18 @@ body {
   color: #000;
 }
 
-p {
-  margin-bottom: 1.3em;
-}
-
 
 h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
   font-family: $montserrat;
   font-weight: inherit;
   line-height: 1.2;
 }
 
 h1 {
-  /*font-family: $montserrat; 
-    margin-top: 0;
-    font-size: 5.063em;
-    padding-bottom: 50px;*/
     font-family: $montserrat;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 5px;
     font-size: 2rem;
-    margin-top: 10rem;
 }
 
 .h1-home {
@@ -39,28 +29,27 @@ h1 {
 }
 
 h2 {
-  /*font-size: 3.375em;*/
   font-family: $montserrat;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 2px;
   font-size: 20px;
 }
 
 h3 {
-  font-size: 2.25em;
+	font-size: 2.25em;
 }
 
 h4 {
-  font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 small, .font_small {
-  font-size: 0.667em;
+	font-size: 0.667em;
 }
 
 p {
   line-height: 2rem;
-  margin-bottom: 2rem;
+  letter-spacing: 1px;
   font-size: 15px;
 }
 
@@ -78,8 +67,11 @@ ul {
   text-transform: uppercase;
   line-height: 2rem;
   letter-spacing: 3px;
-  @media only screen and (min-width: 80em) { 
-    padding: 3rem;
+}
+
+@media only screen and (min-width: 80em) { 
+.quote {
+  padding: 3rem;
   }
 }
 
@@ -91,7 +83,7 @@ font-family: $open;
 @media only screen and (min-width: 80em) { 
   .text-wrapper {
     margin: 5rem 15%;
-  }
+}
 
 }
 
