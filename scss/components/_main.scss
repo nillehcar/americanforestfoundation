@@ -181,6 +181,10 @@ nav-list.active {
   padding: 6rem
 }
 
+.home-text{
+  color: $blue;
+}
+
 .intro-header{
   color: $blue;
   font-family: $montserrat;
@@ -363,10 +367,6 @@ footer{
   margin-left: 35%;
 }
 
-.learn{
-  padding-bottom: 0rem;
-}
-
 .grid-header{
   padding-top: 2rem;
 }
@@ -381,7 +381,9 @@ footer{
 }
 
 .af-info{
-  padding: 1.5rem;
+  padding: .5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .links-wrap{
@@ -397,7 +399,7 @@ footer{
 }
 
 .af-info{
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .social-wrap{
@@ -427,7 +429,7 @@ footer{
 }
 
 .af-info{
-  padding-top: 2rem;
+  padding-top: 0;
 }
 
 }
@@ -476,7 +478,7 @@ footer{
 }
 
 .af-info{
-  padding-top: 3.5rem;
+  padding-top: 2rem;
 }
 
 }
@@ -488,9 +490,8 @@ footer{
   margin-bottom: .5rem;
 }
 
-
 .af-info{
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 }
