@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-@font-face{font-family:'aff';src:url('../font/aff.eot?49659532');src:url('../font/aff.eot?49659532#iefix') format('embedded-opentype'),url('../font/aff.woff?49659532') format('woff'),url('../font/aff.ttf?49659532') format('truetype'),url('../font/aff.svg?49659532#aff') format('svg');font-weight:normal;font-style:normal;}[class^="icon-"]:before,[class*=" icon-"]:before{position:relative;top:2px;font-family:"aff";font-style:normal;font-weight:normal;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-right:0.4em;margin-left:0.2em;font-size:190%}.icon-advocacy:before{content:'\e801'}.icon-resources:before{content:'\e800'}.icon-about:before{content:'\e802'}.icon-contact:before{content:'\e805'}.icon-login:before{content:'\e804'}.icon-home:before{content:'\e806'}.icon-donate:before{content:'\e803'}@-moz-viewport{width:device-width;scale:1;}@-ms-viewport{width:device-width;scale:1;}@-o-viewport{width:device-width;scale:1;}@-webkit-viewport{width:device-width;scale:1;}@viewport{width:device-width;scale:1;}html{box-sizing:border-box;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}*,*:before,*:after{box-sizing:inherit}body{margin:0}.h1-home{display:none}.upper{text-transform:uppercase}.center{text-align:center}.small-border{display:block;width:45px;height:4px;background:#1F2B33;margin:0 auto;margin-top:1rem;margin-bottom:10px}.pushmenu{background:#EFEFEF;font-family:'Open Sans',sans-serif;font-weight:400;width:240px;height:100%;top:0;z-index:1000;position:fixed;padding-top:2em}.pushmenu ul{margin:0;padding:0}.pushmenu li{list-style-type:none}.pushmenu a{display:block;color:#1F2B33;text-decoration:none;padding:1em;font-size:0.9rem;letter-spacing:2px}.pushmenu a:hover{color:#BA3D36}.pushmenu-left{left:-240px}.pushmenu-left.pushmenu-open{left:0}.pushmenu-push{overflow-x:hidden;position:relative;left:0}.pushmenu-push-toright{left:240px}.sub-nav{max-height:0;overflow:hidden;transition:max-height 1s;font-weight:300}nav section:hover>.sub-nav{max-height:100px}.sub-nav a{color:#1F2B33;font-size:12px;padding-left:2em}.sub-nav a:hover{color:#BA3D36}.pushmenu,.pushmenu-push{-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}#nav_list{background:url("../images/menu.svg") no-repeat left top;cursor:pointer;height:65px;width:70px;text-indent:-99999em}nav-list.active{background-position:-33px top}section.content{font-family:'Montserrat',sans-serif;padding:10px 20px}.logo{width:17em;padding-top:5rem;margin-bottom:-5rem}.img-bg{width:100%;padding-bottom:12em}.home{background:transparent url("../images/fog-forest-5.jpg") no-repeat bottom;background-size:cover}.tagline{color:#EFEFEF;text-align:center;font-size:17px;letter-spacing:2px;font-family:'Open Sans',sans-serif;font-weight:300}.af-info{padding:4rem;line-height:1.5rem;text-align:center}.home-intro{padding:6rem}.home-text{color:#1F2B33}.intro-header{color:#1F2B33;font-family:'Montserrat',sans-serif;letter-spacing:5px;font-size:1.5rem;line-height:2rem;text-transform:uppercase}.intro-para{color:#1F2B33;font-size:0.8rem;line-height:1.5rem;font-family:'Open Sans',sans-serif;letter-spacing:1px}.grid-header{padding-top:3rem;letter-spacing:5px}.grid-para{line-height:1.7rem}.learn{padding-bottom:3rem}.support{padding-bottom:3rem}.news{padding-bottom:3rem}.grid-btn{background-color:#EFEFEF;color:#1F2B33;padding:0.5em 1em;border-radius:3px;margin:1em;font-family:'Montserrat',sans-serif;font-weight:400;font-size:0.8rem;letter-spacing:3px;border:2px solid #1F2B33;display:inline-block;text-decoration:none;text-transform:uppercase;transition:all 300ms ease-in-out}.grid-btn:hover{color:#BA3D36;border:2px solid #BA3D36}footer{background-color:#1F2B33;padding-top:3em;padding-bottom:3rem}footer .logo-footer{margin-left:27%;margin-right:20%;margin-bottom:-5px;width:12rem}footer .donate{margin-left:33%}footer .donate-btn{background-color:#1F2B33;color:#FFF;padding:0.5em 1em;border-radius:3px;margin:1em;font-family:'Montserrat',sans-serif;font-weight:400;font-size:0.9rem;letter-spacing:3px;border:2px solid #EFEFEF;display:inline-block;text-decoration:none;text-transform:uppercase;transition:all 300ms ease-in-out}footer .donate-btn:hover{background-color:#EFEFEF;color:#1F2B33;border:2px solid #EFEFEF}footer .bottom-nav{text-transform:uppercase;font-family:'Open Sans',sans-serif;font-size:0.6rem;color:#EFEFEF;padding:0}footer .bottom-nav a{text-decoration:none;letter-spacing:2px;color:#EFEFEF;padding-left:3px;padding-right:3px}footer .bottom-nav a:hover{color:#BA3D36}footer .social-wrap{overflow:hidden;padding-top:1rem;padding-bottom:0.5rem}footer .social-name{text-indent:100%;white-space:nowrap;overflow:hidden;display:block}footer .social{list-style-type:none;margin:0 auto;padding:0;margin-bottom:0.5rem;position:relative;float:left;left:52%}footer .social li{position:relative;float:left;right:50%}footer .social li a{display:inline;float:left;width:40px;height:40px;margin-right:1rem;text-align:center;padding-top:12px;padding-right:1px;-webkit-border-radius:20px;-moz-border-radius:20px;-o-border-radius:20px;-ms-border-radius:20px;border-radius:20px;-webkit-box-shadow:inset 0 0 0 40px #EFEFEF;-moz-box-shadow:inset 0 0 0 40px #EFEFEF;-o-box-shadow:inset 0 0 0 40px #EFEFEF;-ms-box-shadow:inset 0 0 0 40px #EFEFEF;box-shadow:inset 0 0 0 40px #EFEFEF;color:#1F2B33}footer .social li a:hover{-webkit-box-shadow:inset 0 0 0 2px #EFEFEF;-moz-box-shadow:inset 0 0 0 2px #EFEFEF;-o-box-shadow:inset 0 0 0 2px #EFEFEF;-ms-box-shadow:inset 0 0 0 2px #EFEFEF;box-shadow:inset 0 0 0 2px #EFEFEF;color:#EFEFEF;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}@media only screen and (min-width: 35em){.logo-wrap{float:left;margin-left:-2rem;padding-top:1rem}.donate{padding-left:26%}footer{padding-top:2rem;padding-bottom:2rem}.social-wrap{margin-left:34%}.links-wrap{margin-left:35%}.grid-header{padding-top:2rem}}@media only screen and (min-width: 45em){.logo{width:20em}.af-info{padding:0.5rem;padding-left:3rem;padding-right:3rem}.links-wrap{margin-left:43%}}@media only screen and (min-width: 50em){.links-wrap{margin-left:48%}.af-info{padding-top:2rem}.social-wrap{margin-left:31%}}@media only screen and (min-width: 60em){.links-wrap{margin-left:57%}.af-info{padding-left:3rem;padding-right:3rem;padding-top:7rem}}@media only screen and (min-width: 70em){.links-wrap{margin-left:63%}.af-info{padding-top:0}}@media only screen and (min-width: 80em){.links-wrap{margin-left:70%}.logo{width:25rem;padding-top:7rem}.donate{padding-left:23%}.bottom-nav{margin-right:1rem}.social-wrap{margin-left:26%}.intro-para{line-height:2rem}.intro-header{font-size:1.8rem}.grid-header{font-size:1.8rem}.grid-para{font-size:0.9rem}.af-info{padding-top:2rem}}@media only screen and (min-width: 85em){.logo{padding-top:6rem;margin-bottom:0.5rem}.af-info{padding-top:4rem}}html{font-size:1em}body{background-color:white;font-family:'Open Sans',sans-serif;font-weight:400;line-height:1.45;color:#000}h1,h2,h3,h4{font-family:'Montserrat',sans-serif;font-weight:inherit;line-height:1.2}h1{font-family:'Montserrat',sans-serif;font-weight:700;letter-spacing:5px;font-size:2rem}.h1-home{display:none}h2{font-family:'Montserrat',sans-serif;font-weight:700;letter-spacing:2px;font-size:20px}h3{font-size:2.25em}h4{font-size:1.5em}small,.font_small{font-size:0.667em}p{line-height:2rem;letter-spacing:1px;font-size:15px}ul{list-style-type:circle;padding:0;line-height:2rem;font-size:15px}.quote{font-family:'Montserrat',sans-serif;background-color:#EFEFEF;text-align:center;text-transform:uppercase;line-height:2rem;letter-spacing:3px}@media only screen and (min-width: 80em){.quote{padding:3rem}}.text-wrapper{margin:5rem 10%;font-family:'Open Sans',sans-serif}@media only screen and (min-width: 80em){.text-wrapper{margin:5rem 15%}}.upper{text-transform:uppercase}.center{text-align:center}.grid{overflow:hidden;background-color:#EFEFEF}.unit{float:left;background-color:#EFEFEF}.unit-right{float:right}.unit-clear{clear:both}@media only screen and (min-width: 70em){.home-grid .unit{min-height:200px}.home-grid .unit-right{float:left}.home-grid .unit-clear{clear:none !important;backround:red}.home-grid .unit:nth-child(4){clear:left}}.img-flex{display:block;width:100%}.unit-s-1{width:100%}@media only screen and (min-width: 45em){.unit-m-1-2{width:50%}}@media only screen and (min-width: 70em){.unit-l-1-3{width:33.3333%}}
-=======
-<<<<<<< HEAD
->>>>>>> origin/gh-pages
 @font-face {
   font-family: 'aff';
   src: url('../font/aff.eot?49659532');
@@ -291,33 +284,25 @@ section.content {
 /* line 205, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .grid-header {
   padding-top: 3rem;
-  color: #1F2B33;
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
   letter-spacing: 5px; }
 
-/* line 214, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 210, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .grid-para {
-  padding-left: 1rem;
-  color: #1F2B33;
-  font-size: 0.8rem;
-  font-family: 'Open Sans', sans-serif;
   line-height: 1.7rem; }
 
-/* line 222, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 214, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .learn {
   padding-bottom: 3rem; }
 
-/* line 226, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 218, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .support {
   padding-bottom: 3rem; }
 
-/* line 230, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 222, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .news {
   padding-bottom: 3rem; }
 
-/* line 234, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 226, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .grid-btn {
   background-color: #EFEFEF;
   color: #1F2B33;
@@ -339,7 +324,7 @@ section.content {
     border: 2px solid #BA3D36; }
 
 /* footer */
-/* line 240, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 232, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 footer {
   background-color: #1F2B33;
   padding-top: 3em;
@@ -347,16 +332,16 @@ footer {
   /* footer navigation */
   /* footer social */
   /* social end*/ }
-  /* line 245, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 237, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .logo-footer {
     margin-left: 27%;
     margin-right: 20%;
     margin-bottom: -5px;
     width: 12rem; }
-  /* line 252, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 244, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .donate {
     margin-left: 33%; }
-  /* line 256, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 248, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .donate-btn {
     background-color: #1F2B33;
     color: #FFF;
@@ -377,35 +362,35 @@ footer {
       background-color: #EFEFEF;
       color: #1F2B33;
       border: 2px solid #EFEFEF; }
-  /* line 262, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 254, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .bottom-nav {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.6rem;
     color: #EFEFEF;
     padding: 0; }
-  /* line 271, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 263, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .bottom-nav a {
     text-decoration: none;
     letter-spacing: 2px;
     color: #EFEFEF;
     padding-left: 3px;
     padding-right: 3px; }
-    /* line 277, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+    /* line 269, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
     footer .bottom-nav a:hover {
       color: #BA3D36; }
-  /* line 284, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 276, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .social-wrap {
     overflow: hidden;
     padding-top: 1rem;
     padding-bottom: 0.5rem; }
-  /* line 290, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 282, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .social-name {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
-  /* line 294, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 286, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .social {
     list-style-type: none;
     margin: 0 auto;
@@ -415,13 +400,13 @@ footer {
     float: left;
     left: 52%
     /* li end */ }
-    /* line 303, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+    /* line 295, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
     footer .social li {
       position: relative;
       float: left;
       right: 50%
       /* a end */ }
-      /* line 307, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+      /* line 299, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
       footer .social li a {
         display: inline;
         float: left;
@@ -438,7 +423,7 @@ footer {
         box-shadow: inset 0 0 0 40px #EFEFEF;
         color: #1F2B33
         /* hover end*/ }
-        /* line 330, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+        /* line 322, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
         footer .social li a:hover {
           -o-box-shadow: inset 0 0 0 2px #EFEFEF;
           -ms-box-shadow: inset 0 0 0 2px #EFEFEF;
@@ -448,70 +433,70 @@ footer {
 
 @media only screen and (min-width: 35em) {
   /* FOOTER */
-  /* line 347, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 339, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .logo-wrap {
     float: left;
     margin-left: -2rem;
     padding-top: 1rem; }
 
-  /* line 353, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 345, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .donate {
     padding-left: 26%; }
 
-  /* line 357, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 349, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer {
     padding-top: 2rem;
     padding-bottom: 2rem; }
 
-  /* line 362, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 354, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 34%; }
 
-  /* line 366, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 358, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 35%; }
 
-  /* line 370, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 362, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .grid-header {
     padding-top: 2rem; }
  }
 
 @media only screen and (min-width: 45em) {
-  /* line 379, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 371, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .logo {
     width: 20em; }
 
-  /* line 383, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 375, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .af-info {
     padding: 0.5rem;
     padding-left: 3rem;
     padding-right: 3rem; }
 
-  /* line 389, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 381, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 43%; }
  }
 
 @media only screen and (min-width: 50em) {
-  /* line 397, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 389, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 48%; }
 
-  /* line 401, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 393, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .af-info {
     padding-top: 2rem; }
 
-  /* line 405, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 397, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 31%; }
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 412, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 404, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 57%; }
 
-  /* line 416, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 408, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .af-info {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -519,176 +504,70 @@ footer {
  }
 
 @media only screen and (min-width: 70em) {
-  /* line 427, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 419, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 63%; }
 
-  /* line 431, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 423, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .af-info {
     padding-top: 0; }
  }
 
 @media only screen and (min-width: 80em) {
   /*FOOTER*/
-  /* line 441, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 433, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 70%; }
 
-  /* line 445, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 437, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .logo {
     width: 25rem;
     padding-top: 7rem; }
 
-  /* line 450, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 442, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .donate {
     padding-left: 23%; }
 
-  /* line 454, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 446, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .bottom-nav {
     margin-right: 1rem; }
 
-  /* line 458, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 450, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 26%; }
 
   /* Home */
-  /* line 464, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 456, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .intro-para {
     line-height: 2rem; }
 
-  /* line 468, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 460, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .intro-header {
     font-size: 1.8rem; }
 
-  /* line 472, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 464, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .grid-header {
     font-size: 1.8rem; }
 
-  /* line 476, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 468, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .grid-para {
     font-size: 0.9rem; }
 
-  /* line 480, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 472, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .af-info {
     padding-top: 2rem; }
  }
 
 @media only screen and (min-width: 85em) {
-  /* line 488, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 480, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .logo {
     padding-top: 6rem;
     margin-bottom: 0.5rem; }
 
-  /* line 493, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 485, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .af-info {
     padding-top: 4rem; }
  }
-
-/* line 1, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-html {
-  font-size: 1em; }
-
-/* line 5, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-body {
-  background-color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #000; }
-
-/* line 13, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-p {
-  margin-bottom: 1.3em; }
-
-/* line 18, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: inherit;
-  line-height: 1.2; }
-
-/* line 25, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-h1 {
-  /*font-family: $montserrat;	
-  	margin-top: 0;
-  	font-size: 5.063em;
-  	padding-bottom: 50px;*/
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  letter-spacing: 5px;
-  font-size: 2rem; }
-
-/* line 36, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-.h1-home {
-  display: none; }
-
-/* line 40, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-h2 {
-  /*font-size: 3.375em;*/
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  letter-spacing: 2px;
-  font-size: 20px; }
-
-/* line 48, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-h3 {
-  font-size: 2.25em; }
-
-/* line 52, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-h4 {
-  font-size: 1.5em; }
-
-/* line 56, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-small, .font_small {
-  font-size: 0.667em; }
-
-/* line 60, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-p {
-  line-height: 2rem;
-  letter-spacing: 1px;
-  font-size: 15px; }
-
-/* line 66, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-ul {
-  list-style-type: circle;
-  padding: 0;
-  line-height: 2rem;
-  font-size: 15px; }
-
-/* line 73, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-.quote {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #EFEFEF;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 2rem;
-  letter-spacing: 3px; }
-
-@media only screen and (min-width: 80em) {
-  /* line 83, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-  .quote {
-    padding: 3rem; }
- }
-
-/* line 88, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-.text-wrapper {
-  margin: 5rem 10%;
-  font-family: 'Open Sans', sans-serif; }
-
-@media only screen and (min-width: 80em) {
-  /* line 94, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-  .text-wrapper {
-    margin: 5rem 15%; }
- }
-
-/* line 100, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-.upper {
-  text-transform: uppercase; }
-
-/* line 104, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
-.center {
-  text-align: center; }
-<<<<<<< HEAD
 
 /* line 1, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
 .grid {
@@ -744,9 +623,98 @@ ul {
   .unit-l-1-3 {
     width: 33.3333%; }
  }
-=======
-=======
-@font-face{font-family:'aff';src:url('../font/aff.eot?49659532');src:url('../font/aff.eot?49659532#iefix') format('embedded-opentype'),url('../font/aff.woff?49659532') format('woff'),url('../font/aff.ttf?49659532') format('truetype'),url('../font/aff.svg?49659532#aff') format('svg');font-weight:normal;font-style:normal;}[class^="icon-"]:before,[class*=" icon-"]:before{position:relative;top:2px;font-family:"aff";font-style:normal;font-weight:normal;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-right:0.4em;margin-left:0.2em;font-size:190%}.icon-advocacy:before{content:'\e801'}.icon-resources:before{content:'\e800'}.icon-about:before{content:'\e802'}.icon-contact:before{content:'\e805'}.icon-login:before{content:'\e804'}.icon-home:before{content:'\e806'}.icon-donate:before{content:'\e803'}@-moz-viewport{width:device-width;scale:1;}@-ms-viewport{width:device-width;scale:1;}@-o-viewport{width:device-width;scale:1;}@-webkit-viewport{width:device-width;scale:1;}@viewport{width:device-width;scale:1;}html{box-sizing:border-box;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}*,*:before,*:after{box-sizing:inherit}body{margin:0}.h1-home{display:none}.upper{text-transform:uppercase}.center{text-align:center}.small-border{display:block;width:45px;height:4px;background:#1F2B33;margin:0 auto;margin-top:1rem;margin-bottom:10px}.pushmenu{background:#EFEFEF;font-family:'Open Sans',sans-serif;font-weight:400;width:240px;height:100%;top:0;z-index:1000;position:fixed;padding-top:2em}.pushmenu ul{margin:0;padding:0}.pushmenu li{list-style-type:none}.pushmenu a{display:block;color:#1F2B33;text-decoration:none;padding:1em;font-size:0.9rem;letter-spacing:2px}.pushmenu a:hover{color:#BA3D36}.pushmenu-left{left:-240px}.pushmenu-left.pushmenu-open{left:0}.pushmenu-push{overflow-x:hidden;position:relative;left:0}.pushmenu-push-toright{left:240px}.sub-nav{max-height:0;overflow:hidden;transition:max-height 1s;font-weight:300}nav section:hover>.sub-nav{max-height:100px}.sub-nav a{color:#1F2B33;font-size:12px;padding-left:2em}.sub-nav a:hover{color:#BA3D36}.pushmenu,.pushmenu-push{-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}#nav_list{background:url("../images/menu.svg") no-repeat left top;cursor:pointer;height:65px;width:70px;text-indent:-99999em}nav-list.active{background-position:-33px top}section.content{font-family:'Montserrat',sans-serif;padding:10px 20px}.logo{width:17em;padding-top:5rem;margin-bottom:-5rem}.img-bg{width:100%;padding-bottom:12em}.home{background:transparent url("../images/fog-forest-5.jpg") no-repeat bottom;background-size:cover}.tagline{color:#EFEFEF;text-align:center;font-size:17px;letter-spacing:2px;font-family:'Open Sans',sans-serif;font-weight:300}.af-info{padding:4rem;line-height:1.5rem;text-align:center}.home-intro{padding:6rem}.home-text{color:#1F2B33}.intro-header{color:#1F2B33;font-family:'Montserrat',sans-serif;letter-spacing:5px;font-size:1.5rem;line-height:2rem;text-transform:uppercase}.intro-para{color:#1F2B33;font-size:0.8rem;line-height:1.5rem;font-family:'Open Sans',sans-serif;letter-spacing:1px}.grid-header{padding-top:3rem;color:#1F2B33;font-size:1.3rem;text-transform:uppercase;font-family:'Montserrat',sans-serif;letter-spacing:5px}.grid-para{padding-left:1rem;color:#1F2B33;font-size:0.8rem;font-family:'Open Sans',sans-serif;line-height:1.7rem}.learn{padding-bottom:3rem}.support{padding-bottom:3rem}.news{padding-bottom:3rem}.grid-btn{background-color:#EFEFEF;color:#1F2B33;padding:0.5em 1em;border-radius:3px;margin:1em;font-family:'Montserrat',sans-serif;font-weight:400;font-size:0.8rem;letter-spacing:3px;border:2px solid #1F2B33;display:inline-block;text-decoration:none;text-transform:uppercase;transition:all 300ms ease-in-out}.grid-btn:hover{color:#BA3D36;border:2px solid #BA3D36}footer{background-color:#1F2B33;padding-top:3em;padding-bottom:3rem}footer .logo-footer{margin-left:27%;margin-right:20%;margin-bottom:-5px;width:12rem}footer .donate{margin-left:33%}footer .donate-btn{background-color:#1F2B33;color:#FFF;padding:0.5em 1em;border-radius:3px;margin:1em;font-family:'Montserrat',sans-serif;font-weight:400;font-size:0.9rem;letter-spacing:3px;border:2px solid #EFEFEF;display:inline-block;text-decoration:none;text-transform:uppercase;transition:all 300ms ease-in-out}footer .donate-btn:hover{background-color:#EFEFEF;color:#1F2B33;border:2px solid #EFEFEF}footer .bottom-nav{text-transform:uppercase;font-family:'Open Sans',sans-serif;font-size:0.6rem;color:#EFEFEF;padding:0}footer .bottom-nav a{text-decoration:none;letter-spacing:2px;color:#EFEFEF;padding-left:3px;padding-right:3px}footer .bottom-nav a:hover{color:#BA3D36}footer .social-wrap{overflow:hidden;padding-top:1rem;padding-bottom:0.5rem}footer .social-name{text-indent:100%;white-space:nowrap;overflow:hidden;display:block}footer .social{list-style-type:none;margin:0 auto;padding:0;margin-bottom:0.5rem;position:relative;float:left;left:52%}footer .social li{position:relative;float:left;right:50%}footer .social li a{display:inline;float:left;width:40px;height:40px;margin-right:1rem;text-align:center;padding-top:12px;padding-right:1px;-webkit-border-radius:20px;-moz-border-radius:20px;-o-border-radius:20px;-ms-border-radius:20px;border-radius:20px;-webkit-box-shadow:inset 0 0 0 40px #EFEFEF;-moz-box-shadow:inset 0 0 0 40px #EFEFEF;-o-box-shadow:inset 0 0 0 40px #EFEFEF;-ms-box-shadow:inset 0 0 0 40px #EFEFEF;box-shadow:inset 0 0 0 40px #EFEFEF;color:#1F2B33}footer .social li a:hover{-webkit-box-shadow:inset 0 0 0 2px #EFEFEF;-moz-box-shadow:inset 0 0 0 2px #EFEFEF;-o-box-shadow:inset 0 0 0 2px #EFEFEF;-ms-box-shadow:inset 0 0 0 2px #EFEFEF;box-shadow:inset 0 0 0 2px #EFEFEF;color:#EFEFEF;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}@media only screen and (min-width: 35em){.logo-wrap{float:left;margin-left:-2rem;padding-top:1rem}.donate{padding-left:26%}footer{padding-top:2rem;padding-bottom:2rem}.social-wrap{margin-left:34%}.links-wrap{margin-left:35%}.grid-header{padding-top:2rem}}@media only screen and (min-width: 45em){.logo{width:20em}.af-info{padding:0.5rem;padding-left:3rem;padding-right:3rem}.links-wrap{margin-left:43%}}@media only screen and (min-width: 50em){.links-wrap{margin-left:48%}.af-info{padding-top:2rem}.social-wrap{margin-left:31%}}@media only screen and (min-width: 60em){.links-wrap{margin-left:57%}.af-info{padding-left:3rem;padding-right:3rem;padding-top:7rem}}@media only screen and (min-width: 70em){.links-wrap{margin-left:63%}.af-info{padding-top:0}}@media only screen and (min-width: 80em){.links-wrap{margin-left:70%}.logo{width:25rem;padding-top:7rem}.donate{padding-left:23%}.bottom-nav{margin-right:1rem}.social-wrap{margin-left:26%}.intro-para{line-height:2rem}.intro-header{font-size:1.8rem}.grid-header{font-size:1.8rem}.grid-para{font-size:0.9rem}.af-info{padding-top:2rem}}@media only screen and (min-width: 85em){.logo{padding-top:6rem;margin-bottom:0.5rem}.af-info{padding-top:4rem}}html{font-size:1em}body{background-color:white;font-family:'Open Sans',sans-serif;font-weight:400;line-height:1.45;color:#000}p{margin-bottom:1.3em}h1,h2,h3,h4{margin:1.414em 0 0.5em;font-family:'Montserrat',sans-serif;font-weight:inherit;line-height:1.2}h1{font-family:'Montserrat',sans-serif;font-weight:700;letter-spacing:5px;font-size:2rem}.h1-home{display:none}h2{font-family:'Montserrat',sans-serif;font-weight:400;letter-spacing:2px;font-size:20px}h3{font-size:2.25em}h4{font-size:1.5em}small,.font_small{font-size:0.667em}p{line-height:2rem;letter-spacing:1px;font-size:15px}ul{list-style-type:circle;padding:0;line-height:2rem;font-size:15px}.quote{font-family:'Montserrat',sans-serif;background-color:#EFEFEF;text-align:center;text-transform:uppercase;line-height:2rem;letter-spacing:3px}@media only screen and (min-width: 80em){.quote{padding:3rem}}.text-wrapper{margin:5rem 10%;font-family:'Open Sans',sans-serif}@media only screen and (min-width: 80em){.text-wrapper{margin:5rem 15%}}.upper{text-transform:uppercase}.center{text-align:center}.grid{overflow:hidden;background-color:#EFEFEF}.unit{float:left;background-color:#EFEFEF}.unit-right{float:right}.unit-clear{clear:both}@media only screen and (min-width: 70em){.home-grid .unit{min-height:200px}.home-grid .unit-right{float:left}.home-grid .unit-clear{clear:none !important;backround:red}.home-grid .unit:nth-child(4){clear:left}}.img-flex{display:block;width:100%}.unit-s-1{width:100%}@media only screen and (min-width: 45em){.unit-m-1-2{width:50%}}@media only screen and (min-width: 70em){.unit-l-1-3{width:33.3333%}}
->>>>>>> origin/gh-pages
->>>>>>> origin/gh-pages
->>>>>>> origin/gh-pages
+
+/* line 1, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+html {
+  font-size: 1em; }
+
+/* line 5, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #000; }
+
+/* line 13, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: inherit;
+  line-height: 1.2; }
+
+/* line 19, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+  font-size: 2rem; }
+
+/* line 26, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.h1-home {
+  display: none; }
+
+/* line 30, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 20px; }
+
+/* line 37, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h3 {
+  font-size: 2.25em; }
+
+/* line 41, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h4 {
+  font-size: 1.5em; }
+
+/* line 45, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+small, .font_small {
+  font-size: 0.667em; }
+
+/* line 49, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+p {
+  line-height: 2rem;
+  letter-spacing: 1px;
+  font-size: 15px; }
+
+/* line 55, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+ul {
+  list-style-type: circle;
+  padding: 0;
+  line-height: 2rem;
+  font-size: 15px; }
+
+/* line 62, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #EFEFEF;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2rem;
+  letter-spacing: 3px; }
+
+@media only screen and (min-width: 80em) {
+  /* line 72, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+  .quote {
+    padding: 3rem; }
+ }
+
+/* line 77, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.text-wrapper {
+  margin: 5rem 10%;
+  font-family: 'Open Sans', sans-serif; }
+
+@media only screen and (min-width: 80em) {
+  /* line 83, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+  .text-wrapper {
+    margin: 5rem 15%; }
+ }
+
+/* line 89, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.upper {
+  text-transform: uppercase; }
+
+/* line 93, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.center {
+  text-align: center; }
