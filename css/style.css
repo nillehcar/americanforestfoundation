@@ -117,8 +117,18 @@ body {
 .center {
   text-align: center; }
 
+/* line 36, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.small-border {
+  display: block;
+  width: 45px;
+  height: 4px;
+  background: #1F2B33;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 10px; }
+
 /* nav */
-/* line 38, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 49, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .pushmenu {
   background: #EFEFEF;
   font-family: 'Open Sans', sans-serif;
@@ -130,16 +140,16 @@ body {
   position: fixed;
   padding-top: 2em; }
 
-/* line 50, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 61, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .pushmenu ul {
   margin: 0;
   padding: 0; }
 
-/* line 54, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 65, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .pushmenu li {
   list-style-type: none; }
 
-/* line 58, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 69, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .pushmenu a {
   display: block;
   /* drops the nav vertically*/
@@ -148,55 +158,55 @@ body {
   padding: 1em;
   font-size: 0.9rem;
   letter-spacing: 2px; }
-  /* line 65, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 76, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .pushmenu a:hover {
     color: #BA3D36; }
 
-/* line 70, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 81, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .pushmenu-left {
   left: -240px; }
 
-/* line 75, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 86, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .pushmenu-left.pushmenu-open {
   left: 0; }
 
-/* line 79, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 90, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .pushmenu-push {
   overflow-x: hidden;
   position: relative;
   left: 0; }
 
-/* line 85, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 96, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .pushmenu-push-toright {
   left: 240px; }
 
 /* sub-nav */
-/* line 91, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 102, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .sub-nav {
   max-height: 0;
   overflow: hidden;
   transition: max-height 1s;
   font-weight: 300; }
 
-/* line 98, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 109, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 nav section:hover > .sub-nav {
   max-height: 100px; }
 
-/* line 102, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 113, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .sub-nav a {
   color: #1F2B33;
   font-size: 12px;
   padding-left: 2em; }
-  /* line 106, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 117, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .sub-nav a:hover {
     color: #BA3D36; }
 
 /*Transition*/
-/* line 113, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 124, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .pushmenu, .pushmenu-push {
   transition: all 0.3s ease; }
 
-/* line 117, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 128, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 #nav_list {
   background: url("../images/menu.svg") no-repeat left top;
   cursor: pointer;
@@ -204,31 +214,33 @@ nav section:hover > .sub-nav {
   width: 70px;
   text-indent: -99999em; }
 
-/* line 125, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 136, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 nav-list.active {
   background-position: -33px top; }
 
-/* line 129, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 140, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 section.content {
   font-family: 'Montserrat', sans-serif;
   padding: 10px 20px; }
 
 /* content */
-/* line 136, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 147, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .logo {
-  width: 15em; }
+  width: 17em;
+  padding-top: 5rem;
+  margin-bottom: -5rem; }
 
-/* line 140, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 153, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .img-bg {
   width: 100%;
   padding-bottom: 12em; }
 
-/* line 145, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 158, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .home {
-  background: transparent url("../images/close-forest.jpg") no-repeat top;
+  background: transparent url("../images/fog-forest-5.jpg") no-repeat bottom;
   background-size: cover; }
 
-/* line 150, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 163, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 .tagline {
   color: #EFEFEF;
   text-align: center;
@@ -237,8 +249,86 @@ section.content {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; }
 
+/* Home Sections */
+/* line 174, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.af-info {
+  padding: 4rem;
+  line-height: 1.5rem;
+  text-align: center; }
+
+/* line 180, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.home-intro {
+  padding: 6rem; }
+
+/* line 184, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.intro-header {
+  color: #1F2B33;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-transform: uppercase; }
+
+/* line 193, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.intro-para {
+  color: #1F2B33;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px; }
+
+/* line 201, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.grid-header {
+  padding-top: 3rem;
+  color: #1F2B33;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px; }
+
+/* line 210, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.grid-para {
+  padding-left: 1rem;
+  color: #1F2B33;
+  font-size: 0.8rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7rem; }
+
+/* line 218, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.learn {
+  padding-bottom: 3rem; }
+
+/* line 222, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.support {
+  padding-bottom: 3rem; }
+
+/* line 226, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.news {
+  padding-bottom: 3rem; }
+
+/* line 230, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+.grid-btn {
+  background-color: #EFEFEF;
+  color: #1F2B33;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  margin: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  border: 2px solid #1F2B33;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out; }
+  /* line 55, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/mixins */
+  .grid-btn:hover {
+    color: #BA3D36;
+    border: 2px solid #BA3D36; }
+
 /* footer */
-/* line 161, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+/* line 236, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
 footer {
   background-color: #1F2B33;
   padding-top: 3em;
@@ -246,23 +336,24 @@ footer {
   /* footer navigation */
   /* footer social */
   /* social end*/ }
-  /* line 166, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 241, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .logo-footer {
     margin-left: 27%;
     margin-right: 20%;
     margin-bottom: -5px;
     width: 12rem; }
-  /* line 173, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 248, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .donate {
     margin-left: 33%; }
-  /* line 177, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 252, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .donate-btn {
-    background-color: #EFEFEF;
-    color: #1F2B33;
+    background-color: #1F2B33;
+    color: #FFF;
     padding: 0.5em 1em;
     border-radius: 3px;
     margin: 1em;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 0.9rem;
     letter-spacing: 3px;
     border: 2px solid #EFEFEF;
@@ -270,40 +361,40 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
     transition: all 300ms ease-in-out; }
-    /* line 31, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/mixins */
+    /* line 32, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/mixins */
     footer .donate-btn:hover {
-      background-color: #1F2B33;
-      color: #EFEFEF;
+      background-color: #EFEFEF;
+      color: #1F2B33;
       border: 2px solid #EFEFEF; }
-  /* line 183, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 258, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .bottom-nav {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.6rem;
     color: #EFEFEF;
     padding: 0; }
-  /* line 192, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 267, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .bottom-nav a {
     text-decoration: none;
     letter-spacing: 2px;
     color: #EFEFEF;
     padding-left: 3px;
     padding-right: 3px; }
-    /* line 198, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+    /* line 273, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
     footer .bottom-nav a:hover {
       color: #BA3D36; }
-  /* line 205, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 280, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .social-wrap {
     overflow: hidden;
     padding-top: 1rem;
     padding-bottom: 0.5rem; }
-  /* line 211, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 286, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .social-name {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
-  /* line 215, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 290, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer .social {
     list-style-type: none;
     margin: 0 auto;
@@ -313,13 +404,13 @@ footer {
     float: left;
     left: 52%
     /* li end */ }
-    /* line 224, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+    /* line 299, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
     footer .social li {
       position: relative;
       float: left;
       right: 50%
       /* a end */ }
-      /* line 228, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+      /* line 303, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
       footer .social li a {
         display: inline;
         float: left;
@@ -336,7 +427,7 @@ footer {
         box-shadow: inset 0 0 0 40px #EFEFEF;
         color: #1F2B33
         /* hover end*/ }
-        /* line 251, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+        /* line 326, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
         footer .social li a:hover {
           -o-box-shadow: inset 0 0 0 2px #EFEFEF;
           -ms-box-shadow: inset 0 0 0 2px #EFEFEF;
@@ -346,77 +437,195 @@ footer {
 
 @media only screen and (min-width: 35em) {
   /* FOOTER */
-  /* line 268, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 343, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .logo-wrap {
     float: left;
     margin-left: -2rem;
     padding-top: 1rem; }
 
-  /* line 274, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 349, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .donate {
     padding-left: 26%; }
 
-  /* line 278, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 353, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   footer {
     padding-top: 2rem;
     padding-bottom: 2rem; }
 
-  /* line 283, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 358, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 34%; }
 
-  /* line 287, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 362, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 35%; }
+
+  /* line 366, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .learn {
+    padding-bottom: 0rem; }
+
+  /* line 370, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .grid-header {
+    padding-top: 2rem; }
  }
 
-@media only screen and (min-width: 40em) {
-  /* line 296, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+@media only screen and (min-width: 45em) {
+  /* line 379, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .logo {
     width: 20em; }
 
-  /* line 300, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 383, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .af-info {
+    padding: 1.5rem; }
+
+  /* line 387, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 43%; }
  }
 
 @media only screen and (min-width: 50em) {
-  /* line 308, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 395, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 48%; }
 
-  /* line 312, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 399, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .af-info {
+    padding-top: 5rem; }
+
+  /* line 403, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 31%; }
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 320, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 410, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 57%; }
+
+  /* line 414, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .af-info {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 7rem; }
  }
 
 @media only screen and (min-width: 70em) {
-  /* line 330, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 425, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 63%; }
+
+  /* line 429, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .af-info {
+    padding-top: 2rem; }
  }
 
 @media only screen and (min-width: 80em) {
   /*FOOTER*/
-  /* line 339, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 439, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 70%; }
 
-  /* line 343, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 443, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .logo {
+    width: 25rem;
+    padding-top: 7rem; }
+
+  /* line 448, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .donate {
     padding-left: 23%; }
 
-  /* line 347, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 452, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .bottom-nav {
     margin-right: 1rem; }
 
-  /* line 351, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  /* line 456, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 26%; }
+
+  /* Home */
+  /* line 462, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .intro-para {
+    line-height: 2rem; }
+
+  /* line 466, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .intro-header {
+    font-size: 1.8rem; }
+
+  /* line 470, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .grid-header {
+    font-size: 1.8rem; }
+
+  /* line 474, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .grid-para {
+    font-size: 0.9rem; }
+
+  /* line 478, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .af-info {
+    padding-top: 3.5rem; }
+ }
+
+@media only screen and (min-width: 85em) {
+  /* line 486, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .logo {
+    padding-top: 6rem;
+    margin-bottom: 0.5rem; }
+
+  /* line 492, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/main */
+  .af-info {
+    padding-top: 5rem; }
+ }
+
+/* line 1, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+.grid {
+  overflow: hidden;
+  background-color: #EFEFEF; }
+
+/* line 6, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+.unit {
+  float: left;
+  background-color: #EFEFEF; }
+
+/* line 11, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+.unit-right {
+  float: right; }
+
+/* line 15, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+.unit-clear {
+  clear: both; }
+
+@media only screen and (min-width: 70em) {
+  /* line 22, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+  .home-grid .unit {
+    min-height: 200px; }
+  /* line 25, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+  .home-grid .unit-right {
+    float: left; }
+  /* line 28, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+  .home-grid .unit-clear {
+    clear: none !important;
+    backround: red; }
+  /* line 32, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+  .home-grid .unit:nth-child(4) {
+    clear: left; }
+ }
+
+/* line 38, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+.img-flex {
+  display: block;
+  width: 100%; }
+
+/* line 43, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+.unit-s-1 {
+  width: 100%; }
+
+@media only screen and (min-width: 45em) {
+  /* line 49, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+  .unit-m-1-2 {
+    width: 50%; }
+ }
+
+@media only screen and (min-width: 70em) {
+  /* line 56, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/grid */
+  .unit-l-1-3 {
+    width: 33.3333%; }
  }

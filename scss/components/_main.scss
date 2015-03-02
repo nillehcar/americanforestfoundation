@@ -33,6 +33,17 @@ body {
   text-align: center;
 }
 
+.small-border{
+    display: block;
+    width: 45px;
+    height: 4px;
+    background: $blue;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+
 /* nav */
 
 .pushmenu { 
@@ -134,7 +145,9 @@ nav-list.active {
 
 /* content */
 .logo {
-  width: 15em;
+  width: 17em;
+  padding-top: 5rem;
+  margin-bottom: -5rem;
 }
 
 .img-bg {
@@ -143,7 +156,7 @@ nav-list.active {
 }
 
 .home {
-  background: transparent url("../images/close-forest.jpg") no-repeat top;
+  background: transparent url("../images/fog-forest-5.jpg") no-repeat bottom;
   background-size: cover;
 }
 
@@ -154,6 +167,68 @@ nav-list.active {
   letter-spacing: 2px;
   font-family: $open;
   font-weight: 300;
+}
+
+/* Home Sections */
+
+.af-info{
+  padding: 4rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.home-intro{
+  padding: 6rem
+}
+
+.intro-header{
+  color: $blue;
+  font-family: $montserrat;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+.intro-para{
+  color: $blue;
+  font-size: .8rem;
+  line-height: 1.5rem;
+  font-family: $open;
+  letter-spacing: 1px;
+}
+
+.grid-header{
+  padding-top: 3rem;
+  color: $blue;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-family: $montserrat;
+  letter-spacing: 5px;
+}
+
+.grid-para{
+  padding-left: 1rem;
+  color: $blue;
+  font-size: .8rem;
+  font-family: $open;
+  line-height: 1.7rem;
+}
+
+.learn{
+  padding-bottom: 3rem;
+}
+
+.support{
+  padding-bottom: 3rem;
+}
+
+.news{
+  padding-bottom: 3rem;
+}
+
+.grid-btn{
+  @include button2($btn-bg, $btn-hov, $blue);
 }
 
 /* footer */
@@ -288,13 +363,25 @@ footer{
   margin-left: 35%;
 }
 
+.learn{
+  padding-bottom: 0rem;
+}
+
+.grid-header{
+  padding-top: 2rem;
+}
+
 }
 
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 45em) {
 
 .logo {
   width: 20em;
+}
+
+.af-info{
+  padding: 1.5rem;
 }
 
 .links-wrap{
@@ -309,10 +396,13 @@ footer{
   margin-left: 48%;
 }
 
+.af-info{
+  padding-top: 5rem;
+}
+
 .social-wrap{
   margin-left: 31%;
 }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -321,23 +411,38 @@ footer{
   margin-left: 57%;
 }
 
+.af-info{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 7rem;
+}
+
 }
 
 
 @media only screen and (min-width: 70em) {
 
-
 .links-wrap{
   margin-left: 63%;
 }
 
+.af-info{
+  padding-top: 2rem;
 }
+
+}
+
 
 @media only screen and (min-width: 80em) {
 
 /*FOOTER*/
 .links-wrap{
   margin-left: 70%;
+}
+
+.logo{
+  width: 25rem;
+  padding-top: 7rem;
 }
 
 .donate{
@@ -350,6 +455,42 @@ footer{
 
 .social-wrap{
   margin-left: 26%;
+}
+
+/* Home */
+
+.intro-para{
+  line-height: 2rem;
+}
+
+.intro-header{
+  font-size: 1.8rem;
+}
+
+.grid-header{
+  font-size: 1.8rem;
+}
+
+.grid-para{
+  font-size: .9rem;
+}
+
+.af-info{
+  padding-top: 3.5rem;
+}
+
+}
+
+@media only screen and (min-width: 85em) {
+
+.logo{
+  padding-top: 6rem; 
+  margin-bottom: .5rem;
+}
+
+
+.af-info{
+  padding-top: 5rem;
 }
 
 }
