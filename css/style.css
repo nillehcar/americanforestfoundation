@@ -629,3 +629,110 @@ footer {
   .unit-l-1-3 {
     width: 33.3333%; }
  }
+
+/* line 1, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+html {
+  font-size: 1em; }
+
+/* line 5, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #000; }
+
+/* line 13, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+p {
+  margin-bottom: 1.3em; }
+
+/* line 18, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: inherit;
+  line-height: 1.2; }
+
+/* line 25, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h1 {
+  /*font-family: $montserrat;	
+  	margin-top: 0;
+  	font-size: 5.063em;
+  	padding-bottom: 50px;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #EFEFEF;
+  letter-spacing: 5px;
+  font-size: 2rem;
+  margin-top: 10rem; }
+
+/* line 38, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.h1-home {
+  display: none; }
+
+/* line 42, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h2 {
+  /*font-size: 3.375em;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 20px; }
+
+/* line 50, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h3 {
+  font-size: 2.25em; }
+
+/* line 54, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+h4 {
+  font-size: 1.5em; }
+
+/* line 58, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+small, .font_small {
+  font-size: 0.667em; }
+
+/* line 62, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+p {
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  font-size: 15px; }
+
+/* line 68, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+ul {
+  list-style-type: circle;
+  padding: 0;
+  line-height: 2rem;
+  font-size: 15px; }
+
+/* line 75, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #EFEFEF;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2rem;
+  letter-spacing: 3px; }
+
+@media only screen and (min-width: 80em) {
+  /* line 85, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+  .quote {
+    padding: 3rem; }
+ }
+
+/* line 91, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.text-wrapper {
+  margin: 5rem 10%;
+  font-family: 'Open Sans', sans-serif; }
+
+@media only screen and (min-width: 80em) {
+  /* line 97, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+  .text-wrapper {
+    margin: 5rem 15%; }
+ }
+
+/* line 103, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.upper {
+  text-transform: uppercase; }
+
+/* line 107, /Users/rachellin/Desktop/Algonquin/YEAR 3 - SEMESTER 2/2 - Web Development/americanforestfoundation/scss/components/typography */
+.center {
+  text-align: center; }
