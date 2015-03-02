@@ -457,16 +457,15 @@ h1 {
     padding-bottom: 50px;*/
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  color: #EFEFEF;
   letter-spacing: 5px;
   font-size: 2rem;
   margin-top: 10rem; }
 
-/* line 38, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 37, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 .h1-home {
   display: none; }
 
-/* line 42, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 41, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 h2 {
   /*font-size: 3.375em;*/
   font-family: 'Montserrat', sans-serif;
@@ -474,32 +473,32 @@ h2 {
   letter-spacing: 2px;
   font-size: 20px; }
 
-/* line 50, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 49, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 h3 {
   font-size: 2.25em; }
 
-/* line 54, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 53, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 h4 {
   font-size: 1.5em; }
 
-/* line 58, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 57, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 small, .font_small {
   font-size: 0.667em; }
 
-/* line 62, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 61, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 p {
   line-height: 2rem;
   margin-bottom: 2rem;
   font-size: 15px; }
 
-/* line 68, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 67, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 ul {
   list-style-type: circle;
   padding: 0;
   line-height: 2rem;
   font-size: 15px; }
 
-/* line 75, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 74, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 .quote {
   font-family: 'Montserrat', sans-serif;
   background-color: #EFEFEF;
@@ -511,21 +510,21 @@ ul {
     .quote {
       padding: 3rem; } }
 
-/* line 87, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 86, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 .text-wrapper {
   margin: 5rem 10%;
   font-family: 'Open Sans', sans-serif; }
 
 @media only screen and (min-width: 80em) {
-  /* line 93, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+  /* line 92, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
   .text-wrapper {
     margin: 5rem 15%; }
  }
 
-/* line 99, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 98, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 .upper {
   text-transform: uppercase; }
 
-/* line 103, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
+/* line 102, /Users/Sarah/Desktop/americanforestfoundation/scss/components/typography */
 .center {
   text-align: center; }
