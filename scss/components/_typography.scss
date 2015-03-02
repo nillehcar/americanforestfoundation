@@ -28,11 +28,9 @@ h1 {
   	font-size: 5.063em;
   	padding-bottom: 50px;*/
     font-family: $montserrat;
-    font-weight: 400;
-    color: $light-grey;
+    font-weight: 700;
     letter-spacing: 5px;
     font-size: 2rem;
-    margin-top: 10rem;
 }
 
 .h1-home {
@@ -61,7 +59,7 @@ small, .font_small {
 
 p {
   line-height: 2rem;
-  margin-bottom: 2rem;
+  letter-spacing: 1px;
   font-size: 15px;
 }
 
@@ -79,12 +77,12 @@ ul {
   text-transform: uppercase;
   line-height: 2rem;
   letter-spacing: 3px;
+}
 
 @media only screen and (min-width: 80em) { 
 .quote {
   padding: 3rem;
   }
-
 }
 
 .text-wrapper {
