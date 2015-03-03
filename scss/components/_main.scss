@@ -155,10 +155,11 @@ nav-list.active {
   padding-bottom: 12em;
 }
 
-.home {
-  background: transparent url("../images/fog-forest-5.jpg") no-repeat bottom;
+.home,
+.parallax {
+  background-position: 100% bottom;
+  background: transparent url("../images/fog-forest-5.jpg") no-repeat;
   background-size: cover;
-  width: 100%;
 }
 
 .advocacy {
@@ -189,29 +190,16 @@ nav-list.active {
 .home-intro{
   padding-top: 5rem;
   padding-bottom: 5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.intro-h{
+  font-size: 1.5rem;
 }
 
 .home-text{
   color: $blue;
-}
-
-.intro-header{
-  color: $blue;
-  font-family: $montserrat;
-  letter-spacing: 5px;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  text-transform: uppercase;
-}
-
-.intro-para{
-  color: $blue;
-  font-size: .8rem;
-  line-height: 1.5rem;
-  font-family: $open;
-  letter-spacing: 1px;
 }
 
 .grid-header{
