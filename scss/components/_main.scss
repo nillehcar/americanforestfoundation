@@ -146,13 +146,17 @@ nav-list.active {
 /* content */
 .logo {
   width: 17em;
-  padding-top: 5rem;
+  padding-top: 1rem;
   margin-bottom: -5rem;
 }
 
 .img-bg {
   width: 100%;
-  padding-bottom: 12em;
+  padding-bottom: 2em;
+}
+
+.arrow{
+  padding-top: 9.75rem;
 }
 
 .home,
@@ -206,6 +210,11 @@ nav-list.active {
 
 .home-icon{
   width: 40%;
+}
+
+.intro-arrow{
+  color: $light-grey;
+  font-size: 2rem;
 }
 
 .grid-icon{
@@ -390,7 +399,7 @@ footer{
 }
 
 .af-info{
-  padding-top: 2.5rem;
+  padding-top: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 0;
@@ -407,11 +416,26 @@ footer{
 }
 
 .home-intro{
-  padding: 6rem
+  padding: 6rem;
 }
 
 .home-icon{
   width: 30%;
+}
+
+.logo {
+  width: 50%;
+  padding-top: 7rem;
+  margin-bottom: -5rem;
+}
+
+.img-bg {
+  width: 100%;
+  padding-bottom: 4em;
+}
+
+.arrow{
+  padding-top: 17rem;
 }
 
 }
@@ -427,7 +451,7 @@ footer{
 }
 
 .af-info{
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-left: 2rem;
   padding-right: 3rem;
 }
@@ -438,6 +462,21 @@ footer{
 
 .home-icon{
   width: 25%;
+}
+
+.logo {
+  width: 40%;
+  padding-top: 5rem;
+  margin-bottom: -5rem;
+}
+
+.img-bg {
+  width: 100%;
+  padding-bottom: 4em;
+}
+
+.arrow{
+  padding-top: 15rem;
 }
 
 }
@@ -451,7 +490,7 @@ footer{
 .af-info{
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 7.5rem;
+  padding-top: 7rem;
 }
 
 .grid-icon{
@@ -471,6 +510,21 @@ footer{
 .home-icon{
   width: 20%;
 }
+
+.logo {
+  width: 40%;
+  padding-top: 7rem;
+  margin-bottom: -5rem;
+}
+
+.img-bg {
+  width: 100%;
+  padding-bottom: 4em;
+}
+
+.arrow{
+  padding-top: 15rem;
+}
 }
 
 
@@ -481,7 +535,7 @@ footer{
 }
 
 .af-info{
-  padding-top: 2.5rem;
+  padding-top: 3rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -490,11 +544,29 @@ footer{
   width: 15%;
 }
 
-.home-para{
-  padding-left: 17rem;
-  padding-right: 17rem;
+.home-intro{
+  padding-top: 10rem;
 }
 
+.home-para{
+  padding-left: 18rem;
+  padding-right: 18rem;
+}
+
+.logo {
+  width: 35%;
+  padding-top: 6rem;
+  margin-bottom: -5rem;
+}
+
+.img-bg {
+  width: 100%;
+  padding-bottom: 4em;
+}
+
+.arrow{
+  padding-top: 15rem;
+}
 }
 
 
@@ -554,6 +626,7 @@ footer{
   padding-left: 7rem;
   padding-right: 7rem;
 }
+
 }
 
 @media only screen and (min-width: 85em) {
@@ -584,11 +657,15 @@ footer{
 }
 
 .logo{
-  padding-top: 9rem;
+  padding-top: 8rem;
 }
 
 .img-bg {
-  padding-bottom: 14rem;
+  padding-bottom: 4rem;
+}
+
+.arrow{
+  padding-top: 9.75rem;
 }
 
 }
