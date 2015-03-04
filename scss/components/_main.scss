@@ -198,6 +198,10 @@ nav-list.active {
   width: 40%;
 }
 
+.grid-icon{
+  width: 35%;
+}
+
 .intro-h{
   font-size: 1.5rem;
 }
@@ -376,10 +380,20 @@ footer{
 }
 
 .af-info{
-  padding-top: 4rem;
+  padding-top: 2.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 0;
+}
+
+.grid-para{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: .8rem;
+}
+
+.grid-icon{
+  width: 25%;
 }
 
 .home-intro{
@@ -427,7 +441,21 @@ footer{
 .af-info{
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 9rem;
+  padding-top: 7.5rem;
+}
+
+.grid-icon{
+  width: 30%;
+}
+
+.home-intro{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.home-para{
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .home-icon{
@@ -443,18 +471,13 @@ footer{
 }
 
 .af-info{
-  padding-top: 4rem;
+  padding-top: 2.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
 .home-icon{
   width: 15%;
-}
-
-.home-intro{
-  padding-top: 10rem;
-  padding-bottom: 10rem;
 }
 
 .home-para{
@@ -508,9 +531,9 @@ footer{
 }
 
 .af-info{
-  padding-top: 4.5rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-top: 3.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .home-intro{
@@ -531,7 +554,7 @@ footer{
 }
 
 .af-info{
-  padding-top: 6rem;
+  padding-top: 4.5rem;
 }
 
 .home-intro{
