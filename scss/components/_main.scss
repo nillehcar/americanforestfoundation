@@ -184,19 +184,23 @@ nav-list.active {
 /* Home Sections */
 
 .af-info{
-  padding-top: 2rem;
-  padding-bottom: 5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   line-height: 1.5rem;
   text-align: center;
 }
 
 .home-intro{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 9rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.home-icon{
+  width: 40%;
 }
 
 .intro-h{
@@ -208,7 +212,6 @@ nav-list.active {
 }
 
 .grid-header{
-  padding-top: 3rem;
   letter-spacing: 5px;
 }
 
@@ -353,12 +356,8 @@ footer{
   margin-left: 35%;
 }
 
-.grid-header{
-  padding-top: 2rem;
-}
-
 .af-info{
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 6rem;
   padding-left: 8rem;
   padding-right: 8rem;
@@ -366,7 +365,6 @@ footer{
 
 .home-intro{
   @extend .af-info;
-  padding-top: 6rem;
 }
 
 }
@@ -383,7 +381,7 @@ footer{
 }
 
 .af-info{
-  padding-top: 1rem;
+  padding-top: 4rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 0;
@@ -391,6 +389,10 @@ footer{
 
 .home-intro{
   padding: 6rem
+}
+
+.home-icon{
+  width: 30%;
 }
 
 }
@@ -406,13 +408,17 @@ footer{
 }
 
 .af-info{
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-left: 2rem;
   padding-right: 3rem;
 }
 
 .home-intro{
   padding: 7rem;
+}
+
+.home-icon{
+  width: 25%;
 }
 
 }
@@ -424,11 +430,14 @@ footer{
 }
 
 .af-info{
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-top: 7rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 9rem;
 }
 
+.home-icon{
+  width: 20%;
+}
 }
 
 
@@ -439,9 +448,23 @@ footer{
 }
 
 .af-info{
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.home-icon{
+  width: 15%;
+}
+
+.home-intro{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.home-para{
+  padding-left: 17rem;
+  padding-right: 17rem;
 }
 
 }
@@ -490,13 +513,19 @@ footer{
 }
 
 .af-info{
-  padding: 3rem;
+  padding-top: 4.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .home-intro{
   padding: 10rem;
 }
 
+.home-para{
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
 }
 
 @media only screen and (min-width: 85em) {
@@ -507,12 +536,12 @@ footer{
 }
 
 .af-info{
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 
 .home-intro{
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 13rem;
+  padding-bottom: 12rem;
   padding-left: 17rem;
   padding-right: 17em;
 }
@@ -522,5 +551,16 @@ footer{
   padding-right: 9rem;
 }
 
+.home-icon{
+  width: 25%;
+}
+
+.logo{
+  padding-top: 9rem;
+}
+
+.img-bg {
+  padding-bottom: 14rem;
+}
 
 }
