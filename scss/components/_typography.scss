@@ -83,6 +83,7 @@ ul {
   text-transform: uppercase;
   line-height: 2rem;
   letter-spacing: 3px;
+  padding: 2.5rem;
 }
 
 @media only screen and (min-width: 80em) { 
@@ -93,6 +94,11 @@ ul {
 
 .text-wrapper {
 margin: 5rem 10%;
+font-family: $open;
+}
+
+.text-wrapper-article {
+margin: 2rem 10%;
 font-family: $open;
 }
 
