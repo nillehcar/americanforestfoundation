@@ -173,7 +173,12 @@ nav-list.active {
 }
 
 .advocacy-article-1 {
-  background: transparent url("../images/forest-invasion.jpg") no-repeat center;
+  background: transparent url("../images/forest-invasion.jpg") no-repeat bottom;
+  background-size: cover;
+}
+
+.advocacy-article-2 {
+  background: transparent url("../images/farm-bill.jpg") no-repeat bottom;
   background-size: cover;
 }
 
@@ -238,6 +243,7 @@ footer{
   background-color: $blue;
   padding-top: 3em;
   padding-bottom: 3rem;
+
 
 .logo-footer{
   margin-left: 22%;
