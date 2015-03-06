@@ -10,6 +10,15 @@ body {
   color: #000;
 }
 
+.text-wrapper a {
+  color: $red;
+  text-decoration: none;
+}
+
+.text-wrapper a:hover {
+  color: $blue;
+  @include ease(all, 0.3s, ease);
+}
 
 h1, h2, h3, h4 {
   font-family: $montserrat;
