@@ -183,10 +183,16 @@ input.searchField:focus {
   margin-bottom: -5rem;
 }
 
+.home-bg {
+  width: 100%;
+  padding-bottom: 5em;
+}
+
 .img-bg {
   width: 100%;
-  padding-bottom: 2em;
+  padding-bottom: 10em;
 }
+
 
 .arrow{
   padding-top: 9.75rem;
@@ -194,10 +200,10 @@ input.searchField:focus {
 
 .home,
 .parallax {
-  background-position: 100% bottom;
-  background: transparent url("../images/fog-forest-5.jpg") no-repeat;
+  background: transparent url("../images/fog-forest-5.jpg") no-repeat bottom;
   background-size: cover;
 }
+
 
 .about {
   background: transparent url("../images/fog-forest-6.jpg") no-repeat bottom;
@@ -206,6 +212,16 @@ input.searchField:focus {
 
 .advocacy {
   background: transparent url("../images/ferns.jpg") no-repeat bottom;
+  background-size: cover;
+}
+
+.education {
+  background: transparent url("../images/fog-forest-4.jpg") no-repeat bottom;
+  background-size: cover;
+}
+
+.mission {
+  background: transparent url("../images/frosty-trees.jpg") no-repeat bottom;
   background-size: cover;
 }
 
@@ -490,11 +506,6 @@ footer{
   margin-bottom: -5rem;
 }
 
-.img-bg {
-  width: 100%;
-  padding-bottom: 4em;
-}
-
 .arrow{
   padding-top: 17rem;
 }
@@ -529,11 +540,6 @@ footer{
   width: 40%;
   padding-top: 5rem;
   margin-bottom: -5rem;
-}
-
-.img-bg {
-  width: 100%;
-  padding-bottom: 4em;
 }
 
 .arrow{
@@ -578,11 +584,6 @@ footer{
   margin-bottom: -5rem;
 }
 
-.img-bg {
-  width: 100%;
-  padding-bottom: 4em;
-}
-
 .arrow{
   padding-top: 15rem;
 }
@@ -618,11 +619,6 @@ footer{
   width: 35%;
   padding-top: 6rem;
   margin-bottom: -5rem;
-}
-
-.img-bg {
-  width: 100%;
-  padding-bottom: 4em;
 }
 
 .arrow{
@@ -719,10 +715,6 @@ footer{
 
 .logo{
   padding-top: 8rem;
-}
-
-.img-bg {
-  padding-bottom: 4rem;
 }
 
 .arrow{
