@@ -59,6 +59,12 @@ h4 {
 	font-size: 1.5em;
 }
 
+h5 {
+  margin: 0;
+  position: relative;
+  top: 15px;
+}
+
 small, .font_small {
 	font-size: 0.667em;
 }
@@ -87,7 +93,7 @@ ul {
 }
 
 
-@media only screen and (min-width: 80em) { 
+@media only screen and (min-width: 80em) {
 .quote {
   padding: 3rem;
   }
@@ -103,7 +109,7 @@ margin: 2rem 10%;
 font-family: $open;
 }
 
-@media only screen and (min-width: 80em) { 
+@media only screen and (min-width: 80em) {
   .text-wrapper {
     margin: 5rem 15%;
 }
@@ -130,4 +136,8 @@ font-family: $open;
 
 .article-title {
   padding-top: 4rem;
+}
+
+.contact-spacing{
+  margin-bottom: -90px;
 }
