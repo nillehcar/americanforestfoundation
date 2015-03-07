@@ -58,6 +58,26 @@
   } 
 }
 
+@mixin button-clear($bg-color, $hover-color, $text-color) {
+  color: $light-grey;
+  padding: .5em 1em;
+  border-radius: 3px;
+  font-family: $montserrat;
+  font-weight: 400;
+  font-size: .9rem;
+  letter-spacing: 3px;
+  border: 2px solid $light-grey;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+  //references the parent selector using the '&'
+  &:hover {
+    color: $red;
+    border: 2px solid $red;
+  } 
+}
+
 // Hide text in an element
 @mixin hide-text {
   text-indent: 100%;
