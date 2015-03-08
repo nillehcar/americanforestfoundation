@@ -14,12 +14,10 @@ body {
 .staff-page a {
   color: $red;
   text-decoration: none;
-}
-
-.education a:hover,
-.staff-page a:hover {
-  color: $blue;
-  @include ease(all, 0.3s, ease);
+  &:hover {
+    color: $blue;
+    @include ease(all, 0.3s, ease);
+  }
 }
 
 h1, h2, h3, h4 {

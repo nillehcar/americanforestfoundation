@@ -320,11 +320,11 @@ input.searchField:focus {
 
 .blog-info {
   font-size: 12px;
-  color: $mid-grey;
-  padding-top: .5rem;
-  text-align: right;
+  padding-top: 1rem;
+  text-align: center;
   float: right;
 }
+
 .blog-unit {
   display: block;
   margin-left: auto;
@@ -332,18 +332,28 @@ input.searchField:focus {
   width: 4em;
   padding-top: 2rem;
 }
+
+.blog-auth {
+  text-align: center;
+  top: 10px;
+}
+
 @media only screen and (min-width: 45em) {
+
+.blog-info {
+  padding-top: .5rem;
+}
 
 .blog-unit {
   float: left;
   width: 10em;
 }
+
+  .blog-auth {
+  float: left;
 }
 
-.blog-auth {
-  float: left;
-  top: 10px;
-  color: $mid-grey;
+
 }
 
 /* staff page */
