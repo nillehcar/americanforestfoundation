@@ -300,8 +300,19 @@ input.searchField:focus {
   margin-left: 12em;
 }
 
-
 }
+
+/* staff page */
+
+.staff-page {
+  padding-bottom: 6em;
+  background-color: $light-grey;
+}
+
+.staff-page a{
+  font-size: 13px;
+}
+
 /* Home Sections */
 
 .af-info{
