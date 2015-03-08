@@ -10,12 +10,14 @@ body {
   color: #000;
 }
 
-.text-wrapper a {
+.education a,
+.staff-page a {
   color: $red;
   text-decoration: none;
 }
 
-.text-wrapper a:hover {
+.education a:hover,
+.staff-page a:hover {
   color: $blue;
   @include ease(all, 0.3s, ease);
 }
