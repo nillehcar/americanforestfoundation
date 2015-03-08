@@ -264,6 +264,10 @@ input.searchField:focus {
   background-size: cover;
 }
 
+.blog-img {
+  background: transparent url("../images/fog-forest-3.jpg") no-repeat;
+  background-size: cover;
+}
 
 .tagline {
   color: $light-grey;
@@ -335,6 +339,7 @@ input.searchField:focus {
 
 .blog-auth {
   text-align: center;
+  font-size: 12px;
   top: 10px;
 }
 
