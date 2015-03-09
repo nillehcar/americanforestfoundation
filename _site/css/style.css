@@ -622,24 +622,28 @@ form a {
 /* FORM PLACEHOLDER TEXT*/
 /* line 511, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 ::-webkit-input-placeholder {
-  color: #EFEFEF; }
+  color: #EFEFEF;
+  font-family: 'Montserrat', sans-serif; }
 
-/* line 515, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+/* line 516, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #EFEFEF; }
+  color: #EFEFEF;
+  font-family: 'Montserrat', sans-serif; }
 
-/* line 518, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+/* line 520, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #EFEFEF; }
+  color: #EFEFEF;
+  font-family: 'Montserrat', sans-serif; }
 
-/* line 521, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+/* line 524, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 :-ms-input-placeholder {
-  color: #EFEFEF; }
+  color: #EFEFEF;
+  font-family: 'Montserrat', sans-serif; }
 
 /* footer */
-/* line 528, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+/* line 532, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
 footer {
   background-color: #1F2B33;
   padding-top: 3em;
@@ -647,16 +651,16 @@ footer {
   /* footer navigation */
   /* footer social */
   /* social end*/ }
-  /* line 534, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 538, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   footer .logo-footer {
     margin-left: 22%;
     margin-right: 20%;
     margin-bottom: -5px;
     width: 12rem; }
-  /* line 541, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 545, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   footer .donate {
     margin-left: 29%; }
-  /* line 545, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 549, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   footer .donate-btn {
     background-color: #1F2B33;
     color: #FFF;
@@ -677,35 +681,35 @@ footer {
       background-color: #EFEFEF;
       color: #1F2B33;
       border: 2px solid #EFEFEF; }
-  /* line 551, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 555, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   footer .bottom-nav {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.6rem;
     color: #EFEFEF;
     padding: 0; }
-  /* line 560, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 564, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   footer .bottom-nav a {
     text-decoration: none;
     letter-spacing: 2px;
     color: #EFEFEF;
     padding-left: 3px;
     padding-right: 3px; }
-    /* line 566, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+    /* line 570, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
     footer .bottom-nav a:hover {
       color: #BA3D36; }
-  /* line 573, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 577, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   footer .social-wrap {
     overflow: hidden;
     padding-top: 1rem;
     padding-bottom: 0.5rem; }
-  /* line 579, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 583, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   footer .social-name {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
-  /* line 583, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 587, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   footer .social {
     list-style-type: none;
     margin: 0 auto;
@@ -715,13 +719,13 @@ footer {
     float: left;
     left: 52%
     /* li end */ }
-    /* line 592, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+    /* line 596, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
     footer .social li {
       position: relative;
       float: left;
       right: 50%
       /* a end */ }
-      /* line 596, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+      /* line 600, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
       footer .social li a {
         display: inline;
         float: left;
@@ -738,7 +742,7 @@ footer {
         box-shadow: inset 0 0 0 40px #EFEFEF;
         color: #1F2B33
         /* hover end*/ }
-        /* line 619, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+        /* line 623, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
         footer .social li a:hover {
           -o-box-shadow: inset 0 0 0 2px #EFEFEF;
           -ms-box-shadow: inset 0 0 0 2px #EFEFEF;
@@ -748,30 +752,30 @@ footer {
 
 @media only screen and (min-width: 35em) {
   /* FOOTER */
-  /* line 637, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 641, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .logo-wrap {
     float: left;
     margin-left: -2rem;
     padding-top: 1rem; }
 
-  /* line 643, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 647, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .donate {
     padding-left: 26%; }
 
-  /* line 647, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 651, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   footer {
     padding-top: 2rem;
     padding-bottom: 2rem; }
 
-  /* line 652, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 656, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 34%; }
 
-  /* line 656, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 660, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 35%; }
 
-  /* line 660, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 664, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .af-info, .home-intro {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -779,286 +783,286 @@ footer {
     padding-right: 8rem; }
 
 
-  /* line 671, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 675, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .login-logo {
     width: 40%; }
 
-  /* line 675, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 679, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .login-form {
     width: 520px;
     height: 250px; }
 
-  /* line 681, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 685, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .name, .sub {
     width: 500px; }
 
-  /* line 685, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 689, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .sub {
     width: 200px; }
 
-  /* line 689, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 693, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   form p {
     margin-left: 9rem;
     margin-right: 9rem; }
  }
 
 @media only screen and (min-width: 45em) {
-  /* line 699, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 703, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .logo {
     width: 20em; }
 
-  /* line 703, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 707, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 43%; }
 
-  /* line 707, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 711, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .af-info, .home-intro {
     padding-top: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 0; }
 
-  /* line 714, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 718, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .grid-para {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 0.8rem; }
 
-  /* line 720, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 724, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .grid-icon {
     width: 25%; }
 
-  /* line 724, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 728, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-intro {
     padding: 6rem; }
 
-  /* line 728, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 732, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-icon {
     width: 30%; }
 
-  /* line 732, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 736, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .logo {
     width: 50%;
     padding-top: 7rem;
     margin-bottom: -5rem; }
 
-  /* line 738, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 742, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .arrow {
     padding-top: 17rem; }
  }
 
 @media only screen and (min-width: 50em) {
-  /* line 746, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 750, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 48%; }
 
-  /* line 750, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 754, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 31%; }
 
-  /* line 754, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 758, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .af-info, .home-intro {
     padding-top: 4rem;
     padding-left: 2rem;
     padding-right: 3rem; }
 
-  /* line 760, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 764, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-intro {
     padding: 7rem; }
 
-  /* line 764, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 768, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-icon {
     width: 25%; }
 
-  /* line 768, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 772, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .logo {
     width: 40%;
     padding-top: 5rem;
     margin-bottom: -5rem; }
 
-  /* line 774, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 778, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .arrow {
     padding-top: 15rem; }
 
-  /* line 778, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 782, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .login-logo {
     width: 30%; }
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 786, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 790, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 57%; }
 
-  /* line 790, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 794, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .af-info, .home-intro {
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 7rem; }
 
-  /* line 796, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 800, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .grid-icon {
     width: 30%; }
 
-  /* line 800, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 804, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-intro {
     padding-top: 10rem;
     padding-bottom: 10rem; }
 
-  /* line 805, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 809, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-para {
     padding-left: 10rem;
     padding-right: 10rem; }
 
-  /* line 810, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 814, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-icon {
     width: 20%; }
 
-  /* line 814, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 818, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .logo {
     width: 40%;
     padding-top: 7rem;
     margin-bottom: -5rem; }
 
-  /* line 820, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 824, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .arrow {
     padding-top: 15rem; }
 
-  /* line 824, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 828, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .login-logo {
     width: 30%; }
  }
 
 @media only screen and (min-width: 70em) {
-  /* line 832, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 836, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 63%; }
 
-  /* line 836, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 840, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .af-info, .home-intro {
     padding-top: 3rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem; }
 
-  /* line 842, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 846, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-icon {
     width: 15%; }
 
-  /* line 846, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 850, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-intro {
     padding-top: 10rem; }
 
-  /* line 850, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 854, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-para {
     padding-left: 18rem;
     padding-right: 18rem; }
 
-  /* line 855, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 859, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .logo {
     width: 35%;
     padding-top: 6rem;
     margin-bottom: -5rem; }
 
-  /* line 861, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 865, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .arrow {
     padding-top: 15rem; }
 
-  /* line 865, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 869, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .login-logo {
     width: 25%; }
  }
 
 @media only screen and (min-width: 80em) {
   /*FOOTER*/
-  /* line 874, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 878, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .links-wrap {
     margin-left: 70%; }
 
-  /* line 878, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 882, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .logo {
     width: 25rem;
     padding-top: 7rem; }
 
-  /* line 883, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 887, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .donate {
     padding-left: 28%; }
 
-  /* line 887, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 891, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .bottom-nav {
     margin-right: 1rem; }
 
-  /* line 891, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 895, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .social-wrap {
     margin-left: 26%; }
 
   /* Home */
-  /* line 897, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 901, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .intro-para {
     line-height: 2rem; }
 
-  /* line 901, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 905, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .intro-header {
     font-size: 1.8rem; }
 
-  /* line 905, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 909, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .grid-header {
     font-size: 1.8rem; }
 
-  /* line 909, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 913, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .grid-para {
     font-size: 0.9rem; }
 
-  /* line 913, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 917, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .af-info, .home-intro {
     padding-top: 3.5rem;
     padding-left: 2rem;
     padding-right: 2rem; }
 
-  /* line 919, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 923, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-intro {
     padding: 10rem; }
 
-  /* line 923, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 927, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-para {
     padding-left: 7rem;
     padding-right: 7rem; }
  }
 
 @media only screen and (min-width: 85em) {
-  /* line 932, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 936, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .logo {
     padding-top: 6rem;
     margin-bottom: 0.5rem; }
 
-  /* line 937, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 941, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .af-info, .home-intro {
     padding-top: 4.5rem; }
 
-  /* line 941, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 945, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-intro {
     padding-top: 13rem;
     padding-bottom: 12rem;
     padding-left: 17rem;
     padding-right: 17em; }
 
-  /* line 948, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 952, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-para {
     padding-left: 9rem;
     padding-right: 9rem; }
 
-  /* line 953, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 957, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .home-icon {
     width: 25%; }
 
-  /* line 957, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 961, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .logo {
     padding-top: 8rem; }
 
-  /* line 961, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 965, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .arrow {
     padding-top: 9.75rem; }
 
-  /* line 965, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
+  /* line 969, /Users/sarahbootsma/Documents/Graphic Design Yr 3 Sm 2/Web Development V/americanforestfoundation/scss/components/main */
   .login-logo {
     padding-top: 6rem; }
  }

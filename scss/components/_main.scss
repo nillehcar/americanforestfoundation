@@ -510,16 +510,20 @@ form a {
 /* FORM PLACEHOLDER TEXT*/
 ::-webkit-input-placeholder {
    color: $light-grey;
+   font-family: $montserrat;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: $light-grey;  
+   color: $light-grey;
+   font-family: $montserrat;  
 }
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: $light-grey;  
+   color: $light-grey; 
+   font-family: $montserrat; 
 }
 :-ms-input-placeholder {  
-   color: $light-grey;  
+   color: $light-grey; 
+   font-family: $montserrat; 
 }
 
 
