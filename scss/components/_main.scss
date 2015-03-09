@@ -173,7 +173,9 @@ input.searchField:focus {
 
 .search-bar {
   padding-left: 1em;
-  padding-top: 5em;
+  padding-top: 1em;
+  position: relative;
+  bottom: 0;
 }
 
 /* content */
