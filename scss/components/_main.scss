@@ -200,49 +200,55 @@ input.searchField:focus {
   padding-top: 9.75rem;
 }
 
-.home,
-.parallax {
+.home {
   background: transparent url("../images/fog-forest-5.jpg") no-repeat;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .about {
   background: transparent url("../images/fog-forest-6.jpg") no-repeat;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .advocacy {
-  background: transparent url("../images/ferns.jpg") no-repeat bottom;
+  background: transparent url("../images/ferns.jpg") no-repeat;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .donate-img {
   background: transparent url("../images/leaf.jpg") no-repeat;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .education {
   background: transparent url("../images/fog-forest-4.jpg") no-repeat;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .mission {
   background: transparent url("../images/frosty-trees.jpg") no-repeat;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .resources {
-  background: transparent url("../images/sapling.jpg") no-repeat bottom;
+  background: transparent url("../images/tree-logs.jpg") no-repeat bottom;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .advocacy-article-1 {
-  background: transparent url("../images/forest-invasion.jpg") no-repeat bottom;
+  background: transparent url("../images/forest-invasion.jpg") no-repeat;
   background-size: cover;
 }
 
 .advocacy-article-2 {
-  background: transparent url("../images/farm-bill.jpg") no-repeat bottom;
+  background: transparent url("../images/farm-bill.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -254,21 +260,25 @@ input.searchField:focus {
 .contact {
   background: transparent url("../images/tree-logs-4.jpg") no-repeat bottom;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .staff {
   background: transparent url("../images/hike-forest-5.jpg") no-repeat bottom;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .log-in {
   background: transparent url("../images/fog-forest.jpg") no-repeat top;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .blog-img {
   background: transparent url("../images/fog-forest-3.jpg") no-repeat;
   background-size: cover;
+  background-position: 100% 0;
 }
 
 .tagline {
