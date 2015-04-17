@@ -137,6 +137,12 @@ font-family: $open;
 
 }
 
+@media only screen and (min-width: 95em) {
+  .text-wrapper {
+    margin: 7rem 25%;
+}
+}
+
 .upper {
   text-transform: uppercase;
 }
