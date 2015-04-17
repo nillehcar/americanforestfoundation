@@ -12,7 +12,8 @@ body {
 
 .education-pg a,
 .staff-page a,
-.donate-pg a {
+.donate-pg a,
+.resource-article a {
   color: $red;
   text-decoration: none;
   &:hover {
@@ -159,4 +160,9 @@ font-family: $open;
 
 .contact-spacing {
   margin-bottom: -90px;
+}
+
+.report-info {
+  margin-left: 5%;
+  margin-right: 5%;
 }
